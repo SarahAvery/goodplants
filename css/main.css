@@ -172,7 +172,7 @@ header .header-banner {
         flex-wrap: wrap;
         justify-content: center; }
   .sticky + .guarantee {
-    padding-top: 120px; } }
+    padding-top: 100px; } }
 
 @media only screen and (max-width: 630px) {
   header .header-banner {
@@ -188,9 +188,16 @@ header .header-banner {
   .main-nav .header-info {
     flex-wrap: wrap; }
   .sticky + .guarantee {
-    padding-top: 340px; } }
+    padding-top: 250px; } }
 
 @media only screen and (min-height: 401px) {
+  .menu-button {
+    display: none; }
+  .menu,
+  #menu {
+    display: none; } }
+
+@media only screen and (min-device-height: 320px) and (max-device-width: 820px) {
   .menu-button {
     display: none; }
   .menu,
@@ -261,7 +268,9 @@ header .header-banner {
 
 @media only screen and (max-width: 380px) {
   header .header-banner .banner-text .brand-name {
-    font-size: 50px; } }
+    font-size: 50px; }
+  .sticky + .guarantee {
+    padding-top: 170px; } }
 
 section.guarantee {
   width: 100%;
