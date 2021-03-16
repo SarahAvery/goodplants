@@ -1,0 +1,306 @@
+//MIXINS
+@import "mixins";
+@import "guarantee";
+
+header {
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 5px 20px;
+    height: 30px;
+    @include darkbrown;
+
+    svg {
+      height: 20px;
+      width: 20px;
+      margin: 0 10px;
+      fill: #fbf1c0;
+    }
+    svg:hover {
+      fill: #e1ae00;
+    }
+  }
+
+  .header-banner {
+    @include green;
+    height: auto;
+    padding: 250px 0;
+
+    .banner-text {
+      .brand-name {
+        font-size: 120px;
+        @include brand-name;
+        padding: 10px 0;
+      }
+    }
+  }
+}
+
+//NAV BAR//
+.main-nav {
+  @include darkbrown;
+  width: 100%;
+  height: auto;
+  padding: 5px 0;
+
+  .header-info {
+    justify-content: center;
+    align-items: center;
+    .logo {
+      width: 80px;
+      height: 60px;
+      padding: 5px;
+
+      .circle {
+        background-image: url(../img/lightbrown-logo.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          p {
+            font-size: 24px;
+            font-weight: bolder;
+            color: #965320;
+          }
+        }
+      }
+    }
+
+    .nav-desktop {
+      nav {
+        display: block;
+
+        ul {
+          display: flex;
+          align-items: center;
+
+          li {
+            padding: 5px 0;
+            a {
+              text-decoration: none;
+              width: 100%;
+              height: 100%;
+              padding: 5px;
+              margin: 0 5px;
+              transition: 0.5s ease-in-out;
+              font-size: 18px;
+
+              span:hover {
+                color: #e1ae00;
+              }
+
+              svg {
+                width: 30px;
+                height: auto;
+                fill: #fbf1c0;
+                transition: 0.2s ease-in-out;
+              }
+
+              svg:hover {
+                fill: #e1ae00;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.sticky + .guarantee {
+  padding-top: 100px;
+}
+
+#nav {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 840px) {
+  header {
+    .header-banner {
+      padding: 200px 0;
+
+      .banner-text {
+        .brand-name {
+          font-size: 100px;
+        }
+      }
+    }
+  }
+
+  .main-nav {
+    .header-info {
+      flex-wrap: nowrap;
+
+      .nav-desktop {
+        padding: 5px;
+        nav {
+          ul {
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+
+  .sticky + .guarantee {
+    padding-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  header {
+    .header-banner {
+      padding: 150px 0;
+      .banner-text {
+        .brand-name {
+          font-size: 80px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  header {
+    .header-banner {
+      .banner-text {
+        .brand-name {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-nav {
+    .header-info {
+      flex-wrap: wrap;
+    }
+  }
+
+  .sticky + .guarantee {
+    padding-top: 300px;
+  }
+}
+@media only screen and (min-height: 401px) {
+  .menu-button {
+    display: none;
+  }
+  .menu,
+  #menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main-nav {
+    .header-info {
+      justify-content: space-between;
+      .nav-desktop {
+        display: none;
+      }
+
+      .menu-button {
+        display: block;
+        border: none;
+        padding: 5px;
+        height: 60px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+          height: 30px;
+          width: 30px;
+        }
+      }
+
+      .menu,
+      #menu {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: none;
+        flex-wrap: wrap;
+        width: 100%;
+        @include darkbrown;
+        z-index: 10;
+        margin: 0 auto;
+        justify-content: center;
+
+        &.open {
+          display: flex;
+        }
+
+        .nav-mobile {
+          display: block;
+          width: 100%;
+          text-align: center;
+          font-size: 18px;
+          padding: 10px 0;
+
+          ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            li {
+              padding: 10px 0;
+              a {
+                width: 100%;
+                height: 100%;
+                padding: 5px;
+                margin: 0 5px;
+                svg {
+                  width: 30px;
+                  height: auto;
+                  fill: #fbf1c0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .sticky + .guarantee {
+      padding-top: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  header {
+    .header-banner {
+      .banner-text {
+        .brand-name {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}

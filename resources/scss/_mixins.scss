@@ -1,0 +1,42 @@
+//BRAND COLORS
+
+@mixin green {
+    background-color: #83e0bc;
+  }
+  
+  @mixin darkbrown {
+    background-color: #965320;
+  }
+  
+  @mixin medbrown {
+    background-color: #b98a58;
+  }
+  
+  @mixin lightbrown {
+    background-color: #d8ba88;
+  }
+  
+  @mixin beige {
+    background-color: #fbf1c0;
+  }
+  
+  @mixin yellow {
+    background-color: #e1ae00;
+  }
+  
+  @mixin brand-font {
+    font-family: "Comfortaa", cursive;
+  }
+  
+  @mixin brand-name {
+    font-weight: 700;
+    font-family: "Comfortaa", cursive;
+    background: #965320;
+    background: -webkit-repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
+    background: -moz-repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
+    background: repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  

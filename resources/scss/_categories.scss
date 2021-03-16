@@ -1,0 +1,206 @@
+.categories {
+    width: 100%;
+    height: auto;
+  
+    .cards {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .succulent {
+      @include darkbrown;
+    }
+  
+    .airplant {
+      @include green;
+    }
+  
+    .diy {
+      @include lightbrown;
+    }
+  
+    .pots {
+      @include medbrown;
+    }
+  
+    .card {
+      width: 50%;
+      max-height: 400px;
+  
+      .one {
+        background-image: url(../img/succulent-brown.png);
+        //background-image: url(../img/succulent-1.png);
+        //background-image: url(../img/succulent-2.png);
+      }
+  
+      .two {
+        background-image: url(../img/air-plant-green.png);
+      }
+  
+      .three {
+        background-image: url(../img/diy-lightbrown.png);
+      }
+  
+      .four {
+        //background-image: url(../img/pots-multi.png);
+        background-image: url(../img/rosegold-pots.png);
+      }
+  
+      .bg-img {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+  
+        .cardinfo {
+          text-align: left;
+          padding: 0 9%;
+          height: 100%;
+          width: 100%;
+  
+          .infosect {
+            display: block;
+            height: auto;
+            padding: 10% 0;
+  
+            .title {
+              font-size: 50px;
+            }
+  
+            .info {
+              font-size: 20px;
+              padding-bottom: 10px;
+              line-height: 1.4;
+            }
+  
+            a {
+              text-decoration: none;
+              font-size: 20px;
+              font-weight: bolder;
+              padding: 10px 10px;
+              margin: 10px 0;
+              border-radius: 5px;
+            }
+  
+            .btn-pots {
+              border: 3px solid #83e0bc;
+            }
+  
+            .btn-diy {
+              border: 3px solid #965320;
+            }
+  
+            .btn-airplant {
+              border: 3px solid #965320;
+            }
+  
+            .btn-succulent {
+              border: 3px solid #fbf1c0;
+            }
+  
+            a span:hover {
+              color: #e1ae00;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 1150px) {
+    .categories {
+      .cards {
+        .bg-img {
+          .cardinfo {
+            .infosect {
+              .title {
+                font-size: 42px;
+              }
+  
+              .info,
+              a {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 950px) {
+    .categories {
+      .cards {
+        .bg-img {
+          .cardinfo {
+            .infosect {
+              .title {
+                font-size: 36px;
+              }
+  
+              .info,
+              a {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 750px) {
+    .categories {
+      .cards {
+        .card {
+          width: 100%;
+  
+          .bg-img {
+            .cardinfo {
+              .infosect {
+                .title {
+                  font-size: 42px;
+                }
+  
+                .info,
+                a {
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .categories {
+      .cards {
+        .card {
+          width: 100%;
+  
+          .bg-img {
+            .cardinfo {
+              .infosect {
+                .title {
+                  font-size: 27px;
+                }
+  
+                .info,
+                a {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

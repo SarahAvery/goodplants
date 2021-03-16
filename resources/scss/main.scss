@@ -1,6 +1,65 @@
-// test
+
+//MIXINS
+@import "mixins.scss";
+
+//HEADER
+@import "header";
+
+//BANNER
+@import "banner";
+
+//GUARANTEE
+@import "guarantee";
+
+//CATEGORY
+@import "categories";
+
+//FOOTER
+@import "footer";
+
+//SPAN FONT COLOURS
+
+.green {
+  color: #83e0bc;
+}
+
+.darkbrown {
+  color: #965320;
+}
+
+.medbrown {
+  color: #b98a58;
+}
+
+.lightbrown {
+  color: #d8ba88;
+}
+
+.beige {
+  color: #fbf1c0;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  @include brand-font;
+  text-decoration: none;
+  list-style: none;
+  text-transform: lowercase;
+}
 
 body {
   height: 100%;
-  background-color: lightcoral;
+  width: 100%;
+  @include green;
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 }
