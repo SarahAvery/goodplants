@@ -77,5 +77,5 @@ exports.default = function () {
   transpileJS();
   watch("resources/scss/**/*.scss", { ignoreInitial: false }, series(clean("css"), css, copyCss));
   watch("pages/*.html", { ignoreInitial: false }, series(copyHtml, copyImgs, reload));
-  watch("resources/js/*.js", { ignoreInitial: false }, series(clean("js"), transpileJS, reload));
+  watch("resources/js/**/*.js", { ignoreInitial: false }, series(clean("js"), transpileJS, reload));
 };
