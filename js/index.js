@@ -1,22 +1,25 @@
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+console.log("pizza pizza"); //STICKY NAV//
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+window.onscroll = function () {
+  myFunction();
+};
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+var nav = document.getElementById("nav");
+var sticky = nav.offsetTop;
 
-var Foo = /*#__PURE__*/function () {
-  function Foo() {
-    _classCallCheck(this, Foo);
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    nav.classList.add("sticky");
+  } else {
+    nav.classList.remove("sticky");
   }
+} //MOBILE MENU//
 
-  _createClass(Foo, [{
-    key: "log",
-    value: function log(msg) {
-      console.log(msg);
-    }
-  }]);
 
-  return Foo;
-}();
-
-console.log("pizza pizza");
+var menu = document.querySelector("#menu");
+var menuBtn = document.querySelector("#menu-btn");
+var isOpen = document.querySelector("#nav-mobile");
+menuBtn.addEventListener("click", function () {
+  menu.classList.toggle("open");
+  isOpen.style.transition = "2s, ease in out";
+});
