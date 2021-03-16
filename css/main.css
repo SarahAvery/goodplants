@@ -188,7 +188,7 @@ header .header-banner {
   .main-nav .header-info {
     flex-wrap: wrap; }
   .sticky + .guarantee {
-    padding-top: 250px; } }
+    padding-top: 180px; } }
 
 @media only screen and (min-height: 401px) {
   .menu-button {
@@ -270,7 +270,7 @@ header .header-banner {
   header .header-banner .banner-text .brand-name {
     font-size: 50px; }
   .sticky + .guarantee {
-    padding-top: 170px; } }
+    padding-top: 100px; } }
 
 section.guarantee {
   width: 100%;
