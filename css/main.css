@@ -172,7 +172,7 @@ header .header-banner {
         flex-wrap: wrap;
         justify-content: center; }
   .sticky + .guarantee {
-    padding-top: 150px; } }
+    padding-top: 120px; } }
 
 @media only screen and (max-width: 630px) {
   header .header-banner {
@@ -188,7 +188,7 @@ header .header-banner {
   .main-nav .header-info {
     flex-wrap: wrap; }
   .sticky + .guarantee {
-    padding-top: 300px; } }
+    padding-top: 340px; } }
 
 @media only screen and (min-height: 401px) {
   .menu-button {
