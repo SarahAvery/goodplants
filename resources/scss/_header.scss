@@ -164,7 +164,7 @@ header {
   }
 
   .sticky + .guarantee {
-    padding-top: 120px;
+    padding-top: 100px;
   }
 }
 
@@ -201,8 +201,11 @@ header {
   }
 
   .sticky + .guarantee {
-    padding-top: 340px;
+    padding-top: 250px;
   }
+
+  //sticky was 300px
+
 }
 @media only screen and (min-height: 401px) {
   .menu-button {
@@ -213,6 +216,20 @@ header {
     display: none;
   }
 }
+
+
+@media only screen 
+  and (min-device-height: 320px) 
+  and (max-device-width: 820px) {
+    .menu-button {
+      display: none;
+    }
+    .menu,
+    #menu {
+      display: none;
+    }
+  }
+
 
 @media only screen and (max-width: 400px) {
   .main-nav {
@@ -303,4 +320,8 @@ header {
       }
     }
   }
+  .sticky + .guarantee {
+    padding-top: 170px;
+  }
+  //no sticky originally
 }
