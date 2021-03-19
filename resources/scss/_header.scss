@@ -205,7 +205,6 @@ header {
   }
 
   //sticky was 300px
-
 }
 @media only screen and (min-height: 401px) {
   .menu-button {
@@ -217,19 +216,15 @@ header {
   }
 }
 
-
-@media only screen 
-  and (min-device-height: 320px) 
-  and (max-device-width: 820px) {
-    .menu-button {
-      display: none;
-    }
-    .menu,
-    #menu {
-      display: none;
-    }
+@media only screen and (min-device-height: 320px) and (max-device-width: 820px) {
+  .menu-button {
+    display: none;
   }
-
+  .menu,
+  #menu {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 400px) {
   .main-nav {
