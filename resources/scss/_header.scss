@@ -85,6 +85,8 @@ header {
         ul {
           display: flex;
           align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
 
           li {
             padding: 5px 0;
@@ -110,6 +112,23 @@ header {
 
               svg:hover {
                 fill: #e1ae00;
+              }
+            }
+            .search {
+              display: none;
+              padding: 10px;
+              margin: 0 5px;
+              font-size: 18px;
+
+              label span {
+                font-size: 18px;
+              }
+
+              #search {
+                @include offwhite;
+                border-radius: 8px;
+                margin: 0 20px;
+                border: 1px solid #965320;
               }
             }
           }
@@ -168,7 +187,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 670px) {
   header {
     .header-banner {
       padding: 150px 0;
@@ -191,12 +210,29 @@ header {
       }
     }
   }
+  .main-nav {
+    .header-info {
+      flex-wrap: wrap;
+    }
+  }
 }
 
 @media only screen and (max-width: 480px) {
   .main-nav {
     .header-info {
       flex-wrap: wrap;
+
+      .nav-desktop {
+        nav {
+          ul {
+            li {
+              a {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
     }
   }
 
@@ -229,7 +265,9 @@ header {
 @media only screen and (max-width: 400px) {
   .main-nav {
     .header-info {
+      flex-wrap: wrap;
       justify-content: space-between;
+
       .nav-desktop {
         display: none;
       }

@@ -19,6 +19,7 @@ function transpileJS() {
             },
           ],
         ],
+        plugins: ["@babel/plugin-transform-async-to-generator"],
       })
     )
     .pipe(dest("./dist/js/"));

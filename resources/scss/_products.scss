@@ -1,0 +1,278 @@
+//MIXINS
+@import "mixins";
+@import "guarantee";
+
+.procduct-body {
+  @include medbrown;
+}
+
+header.products {
+  .header-banner {
+    @include green;
+    height: auto;
+    padding: 0;
+
+    .background {
+      height: 300px;
+      width: 100%;
+      display: flex;
+
+      img {
+        overflow: hidden;
+        object-fit: cover;
+      }
+    }
+
+    // .banner-text {
+    //   .brand-name {
+    //     font-size: 120px;
+    //     @include brand-name;
+    //     padding: 10px 0;
+    //   }
+  }
+}
+
+//NAV BAR//
+.main-nav {
+  .header-info {
+    .nav-desktop {
+      nav {
+        ul {
+          li {
+            a {
+              span:hover,
+              span.active {
+                color: #e1ae00;
+              }
+
+              svg:hover {
+                // fill: #e1ae00;
+              }
+            }
+            .search {
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//DID NOT CHANGE ANYTHING BELOW - NEED TO COME BACK TO
+// .sticky {
+//   position: fixed;
+//   top: 0;
+//   width: 100%;
+//   z-index: 2;
+// }
+
+// .sticky + .guarantee {
+//   padding-top: 100px;
+// }
+
+// #nav {
+//   overflow: hidden;
+// }
+
+//Product Body
+
+.card-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include medbrown;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0% auto;
+
+  a.card {
+    @include offwhite;
+    border-radius: 20px;
+    width: 220px;
+    height: auto;
+    padding: 5px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    color: black;
+
+    .img-container {
+      height: 220px;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+        border-radius: 20px;
+      }
+    }
+
+    .info {
+      margin: 5px 0;
+      padding: 8px 8px;
+
+      p {
+        font-size: 16px;
+        padding-bottom: 8px;
+      }
+      .title {
+        font-weight: bolder;
+        font-size: 18px;
+        padding-bottom: 4px;
+      }
+
+      .sci {
+        font-size: 14px;
+      }
+
+      .price {
+        padding: 10px 0;
+      }
+
+      .categories {
+        .badge {
+          display: inline-flex;
+          padding: 5px;
+          border-radius: 5px;
+          color: #965320;
+          background: moccasin;
+          border: 1px solid #965320;
+
+          &.category-airplant {
+            @include green;
+            color: #965320;
+          }
+
+          &.category-succulent {
+            @include beige;
+            color: #965320;
+          }
+
+          &.category-houseplant {
+            @include lightbrown;
+            color: #965320;
+          }
+
+          &.category-officeplant {
+            @include medbrown;
+            color: #fbf1c0;
+          }
+        }
+      }
+    }
+  }
+}
+
+//MEDIA
+
+@media only screen and (max-width: 840px) {
+  header.products {
+    .header-banner {
+      .banner-text {
+        .brand-name {
+          font-size: 100px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  header.products {
+    .header-banner {
+      .banner-text {
+        .brand-name {
+          font-size: 120px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header.products {
+    .header-banner {
+      @include green;
+
+      .background {
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  header.products {
+    .header-banner {
+      .banner-text {
+        .brand-name {
+          font-size: 80px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .product-nav {
+    .main-nav {
+      .header-info {
+        flex-wrap: wrap;
+      }
+    }
+
+    .sticky + .guarantee {
+      padding-top: 180px;
+    }
+  }
+
+  //sticky was 300px
+}
+
+@media only screen and (min-height: 401px) {
+  .menu-button {
+    display: none;
+  }
+  .menu,
+  #menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .product-nav {
+    .main-nav {
+      .header-info {
+        flex-wrap: wrap;
+        justify-content: center;
+        .nav-desktop {
+          display: block;
+        }
+      }
+
+      // .sticky + .guarantee {
+      //   padding-top: 100px;
+      // }
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  header.products {
+    .header-banner {
+      .banner-text {
+        .brand-name {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+
+  // .product-nav {
+  //   .sticky + .guarantee {
+  //     padding-top: 100px;
+  //   }
+  // }
+  //no sticky originally
+}

@@ -1,0 +1,1451 @@
+[
+  {
+    "id": 1,
+    "price": "4.99",
+    "prices": [
+      {
+        "label": "small",
+        "value": "4.99"
+      },
+      {
+        "label": "medium",
+        "value": "7.99"
+      },
+      {
+        "label": "large",
+        "value": "9.99"
+      }
+    ],
+    "name": "stricta",
+    "description": "The Tillandsia stricta is a small to medium-sized air plant that has thick green leaves that grow upwards spiralling along the center of the plant.\n\nThis variety of Tillandsia is usually a rich, dark green colour and is a very hearty plant making it great for terrariums and other semi-enclosed displays.  As the stricta air plant matures, the thick leaves begin to interweave, creating an almost bush-like appearance.\n\nThe plant will eventually produce a spike that is the same green colouring as the plant, and soon after will produce brilliant pink/purple hued flowers that are sure to steal the show in any room they are displayed.",
+    "descriptionHtml": "<p>The Tillandsia stricta is a small to medium-sized air plant that has thick green leaves that grow upwards spiralling along the center of the plant.</p>\n<p>This variety of Tillandsia is usually a rich, dark green colour and is a very hearty plant making it great for terrariums and other semi-enclosed displays.  As the stricta air plant matures, the thick leaves begin to interweave, creating an almost bush-like appearance.</p>\n<p>The plant will eventually produce a spike that is the same green colouring as the plant, and soon after will produce brilliant pink/purple hued flowers that are sure to steal the show in any room they are displayed.</p>\n",
+    "scientific_name": "t.stricta",
+    "family": "Bromeliaceae",
+    "genus": "tillandsia",
+    "categories": ["airplant"],
+    "care": [
+      "partial shade",
+      "Once a month, soak in water for 10 to 15 minutes. Turn the plant upside down to allow the water to thoroughly drain out.",
+      "needs good air circulation"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/airplants/stricta-1.jpg",
+        "alt": "tillandsia stricta air plant"
+      },
+      {
+        "src": "./img/airplants/stricta-2.jpg",
+        "alt": "tillandsia stricta air plant"
+      },
+      {
+        "src": "./img/airplants/stricta-3.jpg",
+        "alt": "tillandsia stricta air plant"
+      },
+      {
+        "src": "./img/airplants/stricta-4.jpg",
+        "alt": "tillandsia stricta air plant"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "price": "8.99",
+    "prices": [
+      {
+        "label": "medium",
+        "value": "8.99"
+      }
+    ],
+    "name": "brachycaulos",
+    "description": "Hailing from the exotic locales of Mexico, Panama, and Venezuela, the Tillandsia brachycaulos green air plant is a very special hybrid version of the beloved brachycaulous.\n\nThis dense green air plant has sturdy wide leaves that grow one upon the other, resembling the leaves on top of a pineapple!\n\nIt starts life with a deep green colouring, and as it matures will transition into a variety of red and pink hues, creating quite the display of coloring!\n\nThis air plant will bloom beautiful blue and purple flowers with a hint of yellow.  This variety likes sun and will change colors when displayed in a sunny spot by a window or patio.",
+    "descriptionHtml": "<p>Hailing from the exotic locales of Mexico, Panama, and Venezuela, the Tillandsia brachycaulos green air plant is a very special hybrid version of the beloved brachycaulous.</p>\n<p>This dense green air plant has sturdy wide leaves that grow one upon the other, resembling the leaves on top of a pineapple!</p>\n<p>It starts life with a deep green colouring, and as it matures will transition into a variety of red and pink hues, creating quite the display of coloring!</p>\n<p>This air plant will bloom beautiful blue and purple flowers with a hint of yellow.  This variety likes sun and will change colors when displayed in a sunny spot by a window or patio.</p>\n",
+    "scientific_name": "t.brachycaulos",
+    "family": "Bromeliaceae",
+    "genus": "Tillandsia",
+    "categories": ["airplant"],
+    "care": [
+      "partial shade",
+      "Once a month, soak in water for 10 to 15 minutes. Turn the plant upside down to allow the water to thoroughly drain out.",
+      "needs good air circulation"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/airplants/brachycaulos-1.jpg",
+        "alt": "tillandsia brachycaulos air plant"
+      },
+      {
+        "src": "./img/airplants/brachycaulos-2.jpg",
+        "alt": "tillandsia brachycaulos air plant"
+      },
+      {
+        "src": "./img/airplants/brachycaulos-3.jpg",
+        "alt": "tillandsia brachycaulos air plant"
+      },
+      {
+        "src": "./img/airplants/brachycaulos-4.jpg",
+        "alt": "tillandsia brachycaulos air plant"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "price": "14.99",
+    "prices": [
+      {
+        "label": "medium",
+        "value": "14.99"
+      }
+    ],
+    "name": "Aeranthos",
+    "description": "Tllandsia aeranthos is a spiky-looking air plant whose leaves grow out into a cone-like shape, that comes from southern Brazil, Paraguay and Argentina. Tllandsia aeranthos may be confused with Tillansia bergeri when not in bloom, but when Tillandsia aeranthos blooms, it creates a wonderful deep pink inflorescence!",
+    "descriptionHtml": "<p>Tllandsia aeranthos is a spiky-looking air plant whose leaves grow out into a cone-like shape, that comes from southern Brazil, Paraguay and Argentina. Tllandsia aeranthos may be confused with Tillansia bergeri when not in bloom, but when Tillandsia aeranthos blooms, it creates a wonderful deep pink inflorescence!</p>\n",
+    "scientific_name": "t.aeranthos",
+    "family": "Bromeliaceae",
+    "genus": "tillandsia",
+    "categories": ["airplant"],
+    "care": [
+      "partial shade",
+      "Once a month, soak in water for 10 to 15 minutes. Turn the plant upside down to allow the water to thoroughly drain out.",
+      "needs good air circulation"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/airplants/aeranthos-1.jpg",
+        "alt": "tillandsia aeranthos air plant"
+      },
+      {
+        "src": "./img/airplants/aeranthos-2.jpg",
+        "alt": "tillandsia aeranthos air plant"
+      },
+      {
+        "src": "./img/airplants/aeranthos-3.jpg",
+        "alt": "tillandsia aeranthos air plant"
+      },
+      {
+        "src": "./img/airplants/aeranthos-4.jpg",
+        "alt": "tillandsia aeranthos air plant"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "price": "6.99",
+    "prices": [
+      {
+        "label": "small",
+        "value": "6.99"
+      },
+      {
+        "label": "medium",
+        "value": "7.99"
+      },
+      {
+        "label": "large",
+        "value": "8.99"
+      }
+    ],
+    "name": "capitata peach",
+    "description": "Tillandsia capitata is a beautiful, large growing air plant. This air plant will grow in sizes over 10 inches wide and about 7-10 inches or so high.\n\nOriginally from Guatemala, the Dominican Republic, Cuba, Honduras and Mexico, the T. capitata has stiff light green velvety leaves that blush peach when in bloom.",
+    "descriptionHtml": "<p>Tillandsia capitata is a beautiful, large growing air plant. This air plant will grow in sizes over 10 inches wide and about 7-10 inches or so high.</p>\n<p>Originally from Guatemala, the Dominican Republic, Cuba, Honduras and Mexico, the T. capitata has stiff light green velvety leaves that blush peach when in bloom.</p>\n",
+    "scientific_name": "t.capitata",
+    "family": "Bromeliaceae",
+    "genus": "tillandsia",
+    "categories": ["airplant"],
+    "care": [
+      "Air plants enjoy light misting weekly.",
+      "Once a month, soak in water for 10 to 15 minutes. Turn the plant upside down to allow the water to thoroughly drain out.",
+      "Must not be planted with soil. (pebbles, sand, rocks, wood etc. are suitable)",
+      "Direct sunlight is not recommended."
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/airplants/capitata-1.jpg",
+        "alt": "tillandsia capitata air plant"
+      },
+      {
+        "src": "./img/airplants/capitata-2.jpg",
+        "alt": "tillandsia capitata air plant"
+      },
+      {
+        "src": "./img/airplants/capitata-3.jpg",
+        "alt": "tillandsia capitata air plant"
+      },
+      {
+        "src": "./img/airplants/capitata-4.jpg",
+        "alt": "tillandsia capitata air plant"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "price": "4.49",
+    "prices": [
+      {
+        "label": "small",
+        "value": "7.99"
+      },
+      {
+        "label": "medium",
+        "value": "9.99"
+      },
+      {
+        "label": "large",
+        "value": "11.99"
+      }
+    ],
+    "name": "bulbosa",
+    "description": "This Guatemalan variety of the bulbosa Tillandsia resembles a sea creature, and would be a great compliment to a beach-themed air plant terrarium, nestled in a sea shell, or displayed just about anywhere!\n\nThis unique-looking dark green air plant shows even more character as it grows, producing a bright red bloom and unusual pup clusters.\n\nMake sure when watering the bulbosa guatemala, to shake out any excess water from its base, as water left amongst its leaves can cause it to rot!",
+    "descriptionHtml": "<p>This Guatemalan variety of the bulbosa Tillandsia resembles a sea creature, and would be a great compliment to a beach-themed air plant terrarium, nestled in a sea shell, or displayed just about anywhere!</p>\n<p>This unique-looking dark green air plant shows even more character as it grows, producing a bright red bloom and unusual pup clusters.</p>\n<p>Make sure when watering the bulbosa guatemala, to shake out any excess water from its base, as water left amongst its leaves can cause it to rot!</p>\n",
+    "scientific_name": "t.bulbosa",
+    "family": "Bromeliaceae",
+    "genus": "Tillandsia",
+    "categories": ["airplant"],
+    "care": [
+      "partial shade",
+      "Once a month, soak in water for 10 to 15 minutes. Turn the plant upside down to allow the water to thoroughly drain out.",
+      "needs good air circulation"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/airplants/bulbosa-1.jpg",
+        "alt": "tillandsia bulbosa air plant"
+      },
+      {
+        "src": "./img/airplants/bulbosa-2.jpg",
+        "alt": "tillandsia bulbosa air plant"
+      },
+      {
+        "src": "./img/airplants/bulbosa-3.jpg",
+        "alt": "tillandsia bulbosa air plant"
+      },
+      {
+        "src": "./img/airplants/bulbosa-4.jpg",
+        "alt": "tillandsia bulbosa air plant"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "price": "24.99",
+    "prices": [
+      {
+        "label": "small",
+        "value": "24.99"
+      },
+      {
+        "label": "large",
+        "value": "39.99"
+      },
+      {
+        "label": "jumbo",
+        "value": "69.99"
+      }
+    ],
+    "name": "streptophylla hybrid",
+    "description": "The Tillandsia streptophylla hybrid air plant is a beautiful, bright green plant with wide leaves. Over time as this air plant matures, the leaves will curl and the plant will take on a round, funky shape.\n\nAlso know as the T. Eric Knobloch, this air plant is a hybrid of the Tillandsia streptophylla and Tillandsia brachycaulos\n\nLooks great in an air plant terrarium or on its own in a special vase or dish.",
+    "descriptionHtml": "<p>The Tillandsia streptophylla hybrid air plant is a beautiful, bright green plant with wide leaves. Over time as this air plant matures, the leaves will curl and the plant will take on a round, funky shape.</p>\n<p>Also know as the T. Eric Knobloch, this air plant is a hybrid of the Tillandsia streptophylla and Tillandsia brachycaulos</p>\n<p>Looks great in an air plant terrarium or on its own in a special vase or dish.</p>\n",
+    "scientific_name": "t.streptophylla",
+    "family": "Bromeliaceae",
+    "genus": "tillandsia",
+    "categories": ["airplant"],
+    "care": [
+      "partial shade",
+      "Once a month, soak in water for 10 to 15 minutes. Turn the plant upside down to allow the water to thoroughly drain out.",
+      "needs good air circulation",
+      "mature size: 8\""
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/airplants/streptophylla-1.jpg",
+        "alt": "tillandsia streptophylla air plant"
+      },
+      {
+        "src": "./img/airplants/streptophylla-2.jpg",
+        "alt": "tillandsia streptophylla air plant"
+      },
+      {
+        "src": "./img/airplants/streptophylla-3.jpg",
+        "alt": "tillandsia streptophylla air plant"
+      },
+      {
+        "src": "./img/airplants/streptophylla-4.jpg",
+        "alt": "tillandsia streptophylla air plant"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "price": "13.99",
+    "prices": [
+      {
+        "label": "small",
+        "value": "13.99"
+      },
+      {
+        "label": "large",
+        "value": "29.99"
+      }
+    ],
+    "name": "tectorum ecuador",
+    "description": "Tillandsia Tectorum is one of our rarest and most beautiful air plants! This Tillandsia has layers of soft, white leaves making it a highly unusual air plant, even among other air plants. In the spring when mature, Tillandsia Tectorum blossoms into beautiful violet flowers, making for a striking contrast. Tillandsia Tectorum will sure to be the jewel in the crown of any air plant terrarium or collection.",
+    "descriptionHtml": "<p>Tillandsia Tectorum is one of our rarest and most beautiful air plants! This Tillandsia has layers of soft, white leaves making it a highly unusual air plant, even among other air plants. In the spring when mature, Tillandsia Tectorum blossoms into beautiful violet flowers, making for a striking contrast. Tillandsia Tectorum will sure to be the jewel in the crown of any air plant terrarium or collection.</p>\n",
+    "scientific_name": "t.Tectorum",
+    "family": "Bromeliaceae",
+    "genus": "tillandsia",
+    "categories": ["airplant"],
+    "care": [
+      "Tillandsia Tectorum should not be soaked, ever",
+      "2-3 mistings a week is perfect for this air plant",
+      "it is best to spray your Tillandsia Tectorum with a nutrient-rich water like mineral or spring water rather than fertilizing it"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/airplants/tectorum-ecuador-1.jpg",
+        "alt": "tillandsia tectorum ecuador air plant"
+      },
+      {
+        "src": "./img/airplants/tectorum-ecuador-2.jpg",
+        "alt": "tillandsia tectorum ecuador air plant"
+      },
+      {
+        "src": "./img/airplants/tectorum-ecuador-3.jpg",
+        "alt": "tillandsia tectorum ecuador air plant"
+      },
+      {
+        "src": "./img/airplants/tectorum-ecuador-4.jpg",
+        "alt": "tillandsia tectorum ecuador air plant"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "price": "49.99",
+    "prices": [
+      {
+        "label": "medium",
+        "value": "49.99"
+      },
+      {
+        "label": "large",
+        "value": "59.99"
+      },
+      {
+        "label": "jumbo",
+        "value": "99.99"
+      }
+    ],
+    "name": "xerographica",
+    "description": "With its wide curly leaves, the Tillandsia xerographica adds presence to any area it adorns. This variety of air plant hails from the semi desert region of Guatemala and can also be found in Mexico. The xerographica is a very hearty plant, and one of the few varieties that can handle some full sun. This air plant also needs less watering, as it is used to living in dryer desert like conditions.",
+    "descriptionHtml": "<p>With its wide curly leaves, the Tillandsia xerographica adds presence to any area it adorns. This variety of air plant hails from the semi desert region of Guatemala and can also be found in Mexico. The xerographica is a very hearty plant, and one of the few varieties that can handle some full sun. This air plant also needs less watering, as it is used to living in dryer desert like conditions.</p>\n",
+    "scientific_name": "t.xerographica",
+    "family": "Bromeliaceae",
+    "genus": "tillandsia",
+    "categories": ["airplant"],
+    "care": [
+      "partial shade",
+      "Once a month, soak in water for 10 to 15 minutes. Turn the plant upside down to allow the water to thoroughly drain out.",
+      "needs good air circulation",
+      "mature size: 36\""
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/airplants/xerographica-1.jpg",
+        "alt": "tillandsia xerographica air plant"
+      },
+      {
+        "src": "./img/airplants/xerographica-2.jpg",
+        "alt": "tillandsia xerographica air plant"
+      },
+      {
+        "src": "./img/airplants/xerographica-3.jpg",
+        "alt": "tillandsia xerographica air plant"
+      },
+      {
+        "src": "./img/airplants/xerographica-4.jpg",
+        "alt": "tillandsia xerographica air plant"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "price": "9.99",
+    "prices": [
+      {
+        "label": "medium",
+        "value": "9.99"
+      }
+    ],
+    "name": "echeveria lola",
+    "description": "This stiff-leaved succulent is one of the hardiest! The Lola is a pale white/grey echeveria. A perfect option for growers with a West or South facing window as these girls thrive on lots of sun!",
+    "descriptionHtml": "<p>This stiff-leaved succulent is one of the hardiest! The Lola is a pale white/grey echeveria. A perfect option for growers with a West or South facing window as these girls thrive on lots of sun!</p>\n",
+    "scientific_name": "E.Lola",
+    "family": "crassulaceae",
+    "genus": "echeveria",
+    "categories": ["succulent"],
+    "care": [
+      "bright full sun, partial shade",
+      "water every other week in warm months and every 3-4 weeks in cold months",
+      "only water when soil is completely dry. This plant likes to dry out completely in between waterings."
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/echeveria-lola-1.jpg",
+        "alt": "Echeveria Lola succulent"
+      },
+      {
+        "src": "./img/succulents/echeveria-lola-2.jpg",
+        "alt": "Echeveria Lola succulent"
+      },
+      {
+        "src": "./img/succulents/echeveria-lola-3.jpg",
+        "alt": "Echeveria Lola succulent"
+      },
+      {
+        "src": "./img/succulents/echeveria-lola-4.jpg",
+        "alt": "Echeveria Lola succulent"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "price": "7.99",
+    "prices": [
+      {
+        "label": "small",
+        "value": "7.99"
+      },
+      {
+        "label": "large",
+        "value": "11.99"
+      }
+    ],
+    "name": "echeveria parva",
+    "description": "The echeveria Parva is a charming, tight forming rosette echeveria. With plenty of light, it forms eye-catching reddish-pink tips.",
+    "descriptionHtml": "<p>The echeveria Parva is a charming, tight forming rosette echeveria. With plenty of light, it forms eye-catching reddish-pink tips.</p>\n",
+    "scientific_name": "E.parva",
+    "family": "crassulaceae",
+    "genus": "echeveria",
+    "categories": ["succulent"],
+    "care": [
+      "bright full sun, partial shade",
+      "water every other week in warm months and every 3-4 weeks in cold months"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/echeveria-parva-1.jpg",
+        "alt": "Echeveria parva succulent"
+      },
+      {
+        "src": "./img/succulents/echeveria-parva-2.jpg",
+        "alt": "Echeveria parva succulent"
+      },
+      {
+        "src": "./img/succulents/echeveria-parva-3.jpg",
+        "alt": "Echeveria parva succulent"
+      },
+      {
+        "src": "./img/succulents/echeveria-parva-4.jpg",
+        "alt": "Echeveria parva succulent"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "price": "5.99",
+    "prices": [
+      {
+        "label": "small",
+        "value": "5.99"
+      },
+      {
+        "label": "large",
+        "value": "9.99"
+      }
+    ],
+    "name": "Little Jewel",
+    "description": "Pachyveria 'Glauca' is a beautiful succulent that forms spikey rosettes resembling a jewel. Leaves are thick and almost cylindrical. They are silver-blue tipped with red and have a thickcoating of farina that gives the plant a soft, powdery appearance. Flowers arepinkish on the outsideand peach-coloured inside.",
+    "descriptionHtml": "<p>Pachyveria &#39;Glauca&#39; is a beautiful succulent that forms spikey rosettes resembling a jewel. Leaves are thick and almost cylindrical. They are silver-blue tipped with red and have a thickcoating of farina that gives the plant a soft, powdery appearance. Flowers arepinkish on the outsideand peach-coloured inside.</p>\n",
+    "scientific_name": "pachyveria 'glauca'",
+    "family": "crassulaceae",
+    "genus": "X Pachyveria",
+    "categories": ["succulent"],
+    "care": [
+      "bright full sun, partial shade",
+      "water every other week in warm months and every 3-4 weeks in cold months",
+      "only water when soil is completely dry. This plant likes to dry out completely in between waterings."
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/pachyveria-glauca-1.jpg",
+        "alt": "Little Jewel succulent"
+      },
+      {
+        "src": "./img/succulents/pachyveria-glauca-2.jpg",
+        "alt": "Little Jewel succulent"
+      },
+      {
+        "src": "./img/succulents/pachyveria-glauca-3.jpg",
+        "alt": "Little Jewel succulent"
+      },
+      {
+        "src": "./img/succulents/pachyveria-glauca-4.jpg",
+        "alt": "Little Jewel succulent"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "price": "11.99",
+    "prices": [
+      {
+        "label": "medium",
+        "value": "11.99"
+      }
+    ],
+    "name": "Echeveria Lotus",
+    "description": "It's pretty easy to understand right away how this Echeveria earned it's name - It's leaves form tightly in a ball shape before they mature and open, which gives this plant the semblance of a blooming lotus! Pale blue in color, with lots of sunlight it will blush in gorgeous pinkish hues.",
+    "descriptionHtml": "<p>It&#39;s pretty easy to understand right away how this Echeveria earned it&#39;s name - It&#39;s leaves form tightly in a ball shape before they mature and open, which gives this plant the semblance of a blooming lotus! Pale blue in color, with lots of sunlight it will blush in gorgeous pinkish hues.</p>\n",
+    "scientific_name": "e.lotus",
+    "family": "crassulaceae",
+    "genus": "Echeveria",
+    "categories": ["succulent"],
+    "care": [
+      "bright full sun, partial shade",
+      "water every other week in warm months and every 3-4 weeks in cold months",
+      "only water when soil is completely dry. This plant likes to dry out completely in between waterings."
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/echeveria-lotus-1.png",
+        "alt": "Echeveria Lotus succulent"
+      },
+      {
+        "src": "./img/succulents/echeveria-lotus-2.png",
+        "alt": "Echeveria Lotus succulent"
+      },
+      {
+        "src": "./img/succulents/echeveria-lotus-3.png",
+        "alt": "Echeveria Lotus succulent"
+      },
+      {
+        "src": "./img/succulents/echeveria-lotus-4.png",
+        "alt": "Echeveria Lotus succulent"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "price": "7.99",
+    "prices": [
+      {
+        "label": "medium",
+        "value": "7.99"
+      },
+      {
+        "label": "large",
+        "value": "9.99"
+      }
+    ],
+    "name": "Aloe Flow",
+    "description": "Hailing from South Africa, the Aloe Flow is a hybrid between the succulent \"Gasteria\" and the famed Aloe plant! It is a striking variety, with dark green, triangular-shaped leaves with white spots. It’s perfect for growing as a houseplant, where it will require little maintenance.",
+    "descriptionHtml": "<p>Hailing from South Africa, the Aloe Flow is a hybrid between the succulent &quot;Gasteria&quot; and the famed Aloe plant! It is a striking variety, with dark green, triangular-shaped leaves with white spots. It’s perfect for growing as a houseplant, where it will require little maintenance.</p>\n",
+    "scientific_name": "Gasteraloe 'Flow'",
+    "family": "Asphodelaceae",
+    "genus": "X Gasteraloe",
+    "categories": ["succulent"],
+    "care": [
+      "bright full sun, partial shade",
+      "water every other week in warm months and every 3-4 weeks in cold months",
+      "mature size: 12\""
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/aloe-flow-1.jpg",
+        "alt": "Aloe Flow succulent"
+      },
+      {
+        "src": "./img/succulents/aloe-flow-2.jpg",
+        "alt": "Aloe Flow succulent"
+      },
+      {
+        "src": "./img/succulents/aloe-flow-3.jpg",
+        "alt": "Aloe Flow succulent"
+      },
+      {
+        "src": "./img/succulents/aloe-flow-4.jpg",
+        "alt": "Aloe Flow succulent"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "price": "7.99",
+    "prices": [
+      {
+        "label": "small",
+        "value": "7.99"
+      },
+      {
+        "label": "large",
+        "value": "11.99"
+      },
+      {
+        "label": "jumbo",
+        "value": "19.99"
+      }
+    ],
+    "name": "Perle Von Nurnberg",
+    "description": "Our most popular Echeveria, its graceful leaves form lovely rosettes. Its colours range from pale grey to light purple-pink. This succulent is sure to please in any arrangement.\n\nPlace in full sun for the brightest pink. Reduce sun for less pink.",
+    "descriptionHtml": "<p>Our most popular Echeveria, its graceful leaves form lovely rosettes. Its colours range from pale grey to light purple-pink. This succulent is sure to please in any arrangement.</p>\n<p>Place in full sun for the brightest pink. Reduce sun for less pink.</p>\n",
+    "scientific_name": "E.Perle von Nürnberg",
+    "family": "Crassulaceae",
+    "genus": "Echeveria",
+    "categories": ["succulent"],
+    "care": [
+      "bright full sun",
+      "water every other week in warm months and every 3-4 weeks in cold months",
+      "mature size: 6\""
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/nurnberg-1.jpg",
+        "alt": "Perle Von Nurnberg succulent"
+      },
+      {
+        "src": "./img/succulents/nurnberg-2.jpg",
+        "alt": "Perle Von Nurnberg succulent"
+      },
+      {
+        "src": "./img/succulents/nurnberg-3.jpg",
+        "alt": "Perle Von Nurnberg succulent"
+      },
+      {
+        "src": "./img/succulents/nurnberg-4.jpg",
+        "alt": "Perle Von Nurnberg succulent"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "price": "6.99",
+    "prices": [
+      {
+        "label": "small",
+        "value": "6.99"
+      },
+      {
+        "label": "large",
+        "value": "9.99"
+      }
+    ],
+    "name": "Aeonium Kiwi",
+    "description": "The gorgeous Aeonium Haworthii \"Kiwi\" is highly coveted for its tender and vibrant variegated leaves. The more sun it receives, the more vibrant it's colours become! This plant loves bright light and does not like to be water-logged. Water infrequently and plant in well-draining substrate (we recommend our Succulent Soil) to avoid giving this plant root rot..",
+    "descriptionHtml": "<p>The gorgeous Aeonium Haworthii &quot;Kiwi&quot; is highly coveted for its tender and vibrant variegated leaves. The more sun it receives, the more vibrant it&#39;s colours become! This plant loves bright light and does not like to be water-logged. Water infrequently and plant in well-draining substrate (we recommend our Succulent Soil) to avoid giving this plant root rot..</p>\n",
+    "scientific_name": "a.haworthii",
+    "family": "Crassulaceae",
+    "genus": "Aeonium",
+    "categories": ["succulent"],
+    "care": [
+      "bright Full to partial direct or indirect sunlight",
+      "water every other week in warm months and every 3-4 weeks in cold months",
+      "mature size: 6\""
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/kiwi-1.jpg",
+        "alt": "Aeonium Kiwi succulent"
+      },
+      {
+        "src": "./img/succulents/kiwi-2.jpg",
+        "alt": "Aeonium Kiwi succulent"
+      },
+      {
+        "src": "./img/succulents/kiwi-3.jpg",
+        "alt": "Aeonium Kiwi succulent"
+      },
+      {
+        "src": "./img/succulents/kiwi-4.jpg",
+        "alt": "Aeonium Kiwi succulent"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "price": "9.99",
+    "prices": [
+      {
+        "label": "medium",
+        "value": "9.99"
+      }
+    ],
+    "name": "Echeveria Purpusorum",
+    "description": "The amazing Echeveria Purpusorum is one tough succulent. This means it's one of the easiest to care for. Just give it lots of sunlight, water sparingly and you're good to go!\n\nIts colors can change from green to brown to red all depending on the amount of light it gets.",
+    "descriptionHtml": "<p>The amazing Echeveria Purpusorum is one tough succulent. This means it&#39;s one of the easiest to care for. Just give it lots of sunlight, water sparingly and you&#39;re good to go!</p>\n<p>Its colors can change from green to brown to red all depending on the amount of light it gets.</p>\n",
+    "scientific_name": "e.purpusorum",
+    "family": "Crassulaceae",
+    "genus": "Echeveria",
+    "categories": ["succulent"],
+    "care": [
+      "Direct light, partial shade",
+      "Water infrequently, allowing the soil to dry out completely between waterings",
+      "Plant in well-draining soil",
+      "mature size: 6\""
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/purpusorum-1.jpg",
+        "alt": "Echeveria Purpusorum succulent"
+      },
+      {
+        "src": "./img/succulents/purpusorum-2.jpg",
+        "alt": "Echeveria Purpusorum succulent"
+      },
+      {
+        "src": "./img/succulents/purpusorum-3.jpg",
+        "alt": "Echeveria Purpusorum succulent"
+      },
+      {
+        "src": "./img/succulents/purpusorum-4.jpg",
+        "alt": "Echeveria Purpusorum succulent"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "price": "7.49",
+    "prices": [
+      {
+        "label": "small",
+        "value": "7.49"
+      },
+      {
+        "label": "large",
+        "value": "11.99"
+      }
+    ],
+    "name": "Echeveria Blue Bird",
+    "description": "Echeveria 'Blue Bird' is a large silvery-blue rosette that gets bright pink margins in fall and winter. As an adaptation to full sun, 'Bluebird' has a thick, powdery coating of farina (epicutular wax) that also gives it a soft, pruinose appearance.",
+    "descriptionHtml": "<p>Echeveria &#39;Blue Bird&#39; is a large silvery-blue rosette that gets bright pink margins in fall and winter. As an adaptation to full sun, &#39;Bluebird&#39; has a thick, powdery coating of farina (epicutular wax) that also gives it a soft, pruinose appearance.</p>\n",
+    "scientific_name": "e.blue bird",
+    "family": "Crassulaceae",
+    "genus": "Echeveria",
+    "categories": ["succulent"],
+    "care": [
+      "bright full sun, partial shade in direct or indirect sunlight",
+      "water every other week in warm months and every 3-4 weeks in cold months"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/blue-bird-1.jpg",
+        "alt": "Echeveria Blue Bird succulent"
+      },
+      {
+        "src": "./img/succulents/blue-bird-2.jpg",
+        "alt": "Echeveria Blue Bird succulent"
+      },
+      {
+        "src": "./img/succulents/blue-bird-3.jpg",
+        "alt": "Echeveria Blue Bird succulent"
+      },
+      {
+        "src": "./img/succulents/blue-bird-4.jpg",
+        "alt": "Echeveria Blue Bird succulent"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "price": "7.99",
+    "prices": [
+      {
+        "label": "small",
+        "value": "7.99"
+      },
+      {
+        "label": "large",
+        "value": "11.99"
+      }
+    ],
+    "name": "Balloon Cactus",
+    "description": "Commonly known as the \"Mother-in-law's Cushion,\" this cactus starts off short, but grows taller with age. It produces striking yellow flowers around the top during bloom.",
+    "descriptionHtml": "<p>Commonly known as the &quot;Mother-in-law&#39;s Cushion,&quot; this cactus starts off short, but grows taller with age. It produces striking yellow flowers around the top during bloom.</p>\n",
+    "scientific_name": "p.magnifica",
+    "family": "Cactaceae",
+    "genus": "Parodia",
+    "categories": ["succulent"],
+    "care": [
+      "bright full sun, partial shade in direct or indirect sunlight",
+      "water every other week in warm months and every 3-4 weeks in cold months",
+      "mature size: 12\""
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/balloon-1.jpg",
+        "alt": "Balloon Cactus succulent"
+      },
+      {
+        "src": "./img/succulents/balloon-2.jpg",
+        "alt": "Balloon Cactus succulent"
+      },
+      {
+        "src": "./img/succulents/balloon-3.jpg",
+        "alt": "Balloon Cactus succulent"
+      },
+      {
+        "src": "./img/succulents/balloon-4.jpg",
+        "alt": "Balloon Cactus succulent"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "price": "9.99",
+    "prices": [
+      {
+        "label": "medium",
+        "value": "9.99"
+      }
+    ],
+    "name": "Mammillaria Elegans",
+    "description": "This short, cylindrical cactus is perfect for terrariums! It forms charming red flowers during blooming seasons.",
+    "descriptionHtml": "<p>This short, cylindrical cactus is perfect for terrariums! It forms charming red flowers during blooming seasons.</p>\n",
+    "scientific_name": "M.elegans",
+    "family": "Cactaceae",
+    "genus": "Mammillaria",
+    "categories": ["succulent"],
+    "care": [
+      "light to partial sun",
+      "water every other week in warm months and every 3-4 weeks in cold months",
+      "mature size: 12\""
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/m-elegans-1.jpg",
+        "alt": "Mammillaria Elegans succulent"
+      },
+      {
+        "src": "./img/succulents/m-elegans-2.jpg",
+        "alt": "Mammillaria Elegans succulent"
+      },
+      {
+        "src": "./img/succulents/m-elegans-3.jpg",
+        "alt": "Mammillaria Elegans succulent"
+      },
+      {
+        "src": "./img/succulents/m-elegans-4.jpg",
+        "alt": "Mammillaria Elegans succulent"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "price": "9.99",
+    "prices": [
+      {
+        "label": "medium",
+        "value": "9.99"
+      }
+    ],
+    "name": "Astrophytum 'Bishop's Cap'",
+    "description": "The Astrophytum Bishop's Cap Cactus is sure to be a star in your collection! While not prickly, the Bishop's Cap develops white spots with age. In the spring and summer, it boasts bright yellow flowers.",
+    "descriptionHtml": "<p>The Astrophytum Bishop&#39;s Cap Cactus is sure to be a star in your collection! While not prickly, the Bishop&#39;s Cap develops white spots with age. In the spring and summer, it boasts bright yellow flowers.</p>\n",
+    "scientific_name": "A.myriostigma",
+    "family": "Cactaceae",
+    "genus": "Astrophytum",
+    "categories": ["succulent"],
+    "care": [
+      "Partial sun, partial shade",
+      "water every other week in warm months and every 3-4 weeks in cold months",
+      "mature size: 40 feet"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/succulents/bishop-1.jpg",
+        "alt": "Astrophytum 'Bishop's Cap' succulent"
+      },
+      {
+        "src": "./img/succulents/bishop-2.jpg",
+        "alt": "Astrophytum 'Bishop's Cap' succulent"
+      },
+      {
+        "src": "./img/succulents/bishop-3.jpg",
+        "alt": "Astrophytum 'Bishop's Cap' succulent"
+      },
+      {
+        "src": "./img/succulents/bishop-4.jpg",
+        "alt": "Astrophytum 'Bishop's Cap' succulent"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "price": "4.99",
+    "prices": [
+      {
+        "label": "small",
+        "value": "4.99"
+      },
+      {
+        "label": "medium",
+        "value": "9.99"
+      },
+      {
+        "label": "large",
+        "value": "12.99"
+      }
+    ],
+    "name": "marble pots",
+    "description": "The Astrophytum Bishop's Cap Cactus is sure to be a star in your collection! While not prickly, the Bishop's Cap develops white spots with age. In the spring and summer, it boasts bright yellow flowers.\n\n<h2>sizes:</h2>\n\n* Small: 2\"x4\"\n* medium:\n* large:",
+    "descriptionHtml": "<p>The Astrophytum Bishop&#39;s Cap Cactus is sure to be a star in your collection! While not prickly, the Bishop&#39;s Cap develops white spots with age. In the spring and summer, it boasts bright yellow flowers.</p>\n<h2>sizes:</h2>\n\n<ul>\n<li>Small: 2&quot;x4&quot;</li>\n<li>medium:</li>\n<li>large:</li>\n</ul>\n",
+    "scientific_name": "",
+    "family": "",
+    "genus": "",
+    "categories": ["terrarium"],
+    "care": [],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/marble-pots.jpg",
+        "alt": "Astrophytum 'Bishop's Cap' succulent"
+      },
+      {
+        "src": "./img/succulents/bishop-2.jpg",
+        "alt": "Astrophytum 'Bishop's Cap' succulent"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "price": "24.99",
+    "prices": [
+      {
+        "label": "small 3-4\"",
+        "value": "24.99"
+      },
+      {
+        "label": "medium 5-6\"",
+        "value": "49.99"
+      },
+      {
+        "label": "large 8-10\"",
+        "value": "69.99"
+      }
+    ],
+    "name": "Swiss Cheese Vine",
+    "description": "The Swiss Cheese Vine (Monstera adasonii) is a unique and fascinating vine that grows large holes in its leaves the older it gets.\n\nPlace the Swiss Cheese Vine in indirect light and well-drained peat-based soil, preferably in a humid environment. Water your Swiss Cheese Vine on a semi-frequent basis; place your finger in its soil and water if it is nearly (but not completely) dry.",
+    "descriptionHtml": "<p>The Swiss Cheese Vine (Monstera adasonii) is a unique and fascinating vine that grows large holes in its leaves the older it gets.</p>\n<p>Place the Swiss Cheese Vine in indirect light and well-drained peat-based soil, preferably in a humid environment. Water your Swiss Cheese Vine on a semi-frequent basis; place your finger in its soil and water if it is nearly (but not completely) dry.</p>\n",
+    "scientific_name": "M.Adansonii",
+    "family": "Araceae",
+    "genus": "monstera",
+    "categories": ["houseplant"],
+    "care": [
+      "partial shade, partial sun",
+      "water roughly once a week. check to see if the soil is nearly dry before watering.",
+      "mature size: 36\""
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/houseplants/monstera-adansonii-1.jpg",
+        "alt": "monstera adansonii"
+      },
+      {
+        "src": "./img/houseplants/monstera-adansonii-2.jpg",
+        "alt": "monstera adansonii"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "price": "24.99",
+    "prices": [
+      {
+        "label": "medium 5-6\"",
+        "value": "24.99"
+      },
+      {
+        "label": "large 8-10\"",
+        "value": "98.99"
+      }
+    ],
+    "name": "Fiddle Leaf Fig (bush)",
+    "description": "The Fiddle Leaf Fig (or FLF for short) is one of the most popular houseplants today, and one of our best-selling house plants! Hailing from South America, the FLF does in fact produce figs in the wild. Given the right conditions, FLF can grow up to 3 meters tall. This plant will shed its lower leaves as it grows for a more tree-like appearance as it matures.\n\n<h2>sizes:</h2>\n\n* Medium: 5-6 inch pot - approx 1 ft tall\n* Large: 8-10 inch pot - approx 3-3.5 ft",
+    "descriptionHtml": "<p>The Fiddle Leaf Fig (or FLF for short) is one of the most popular houseplants today, and one of our best-selling house plants! Hailing from South America, the FLF does in fact produce figs in the wild. Given the right conditions, FLF can grow up to 3 meters tall. This plant will shed its lower leaves as it grows for a more tree-like appearance as it matures.</p>\n<h2>sizes:</h2>\n\n<ul>\n<li>Medium: 5-6 inch pot - approx 1 ft tall</li>\n<li>Large: 8-10 inch pot - approx 3-3.5 ft</li>\n</ul>\n",
+    "scientific_name": "Ficus lyrata",
+    "family": "Moraceae",
+    "genus": "Ficus lyrata",
+    "categories": ["houseplant"],
+    "care": [
+      "full sun",
+      "water roughly once a week when the top half of the soil is completely dry.",
+      "do not let the soil be completely dry for prolonged periods of time",
+      "mature size: 15 feet"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/houseplants/fig-bush-1.jpg",
+        "alt": "fig bush"
+      },
+      {
+        "src": "./img/houseplants/fig-bush-2.jpg",
+        "alt": "fig bush"
+      },
+      {
+        "src": "./img/houseplants/fig-bush-3.jpg",
+        "alt": "fig bush"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "price": "59.99",
+    "prices": [
+      {
+        "label": "medium 5-6\"",
+        "value": "59.99"
+      },
+      {
+        "label": "large 8-10\"",
+        "value": "119.99"
+      }
+    ],
+    "name": "ZZ Plant",
+    "description": "A.k.a Madagascar Jewel plant. Super easy and low maintenance plants. Thrives in indirect sunlight and water only sparingly!",
+    "descriptionHtml": "<p>A.k.a Madagascar Jewel plant. Super easy and low maintenance plants. Thrives in indirect sunlight and water only sparingly!</p>\n",
+    "scientific_name": "Zamioculcas Zamiifolia",
+    "family": "araceae",
+    "genus": "Zamioculcas",
+    "categories": ["houseplant"],
+    "care": [
+      "bright indirect light, partial shade",
+      "Allow the soil to become dry at the top to the touch between watering and do not overwater",
+      "this plant is slow-growing, so be patient",
+      "mature size: 2.5 feet"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/houseplants/zz-plant-1.jpg",
+        "alt": "zz plant"
+      },
+      {
+        "src": "./img/houseplants/zz-plant-2.jpg",
+        "alt": "zz plant"
+      },
+      {
+        "src": "./img/houseplants/zz-plant-3.jpg",
+        "alt": "zz plant"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "price": "34.99",
+    "prices": [
+      {
+        "label": "medium 5-6\"",
+        "value": "34.99"
+      },
+      {
+        "label": "large 8-10\"",
+        "value": "139.99"
+      },
+      {
+        "label": "jumbo 12-14\"",
+        "value": "249.99"
+      }
+    ],
+    "name": "Birds of Paradise (Strelitzia)",
+    "description": "Birds of Paradise is a highly sought-after, stunning plant that is worthy of any home. they are beautiful plants that can be successfully grown inside.\n\nthis plant needs to mature to roughly 5 feet before it flowers ",
+    "descriptionHtml": "<p>Birds of Paradise is a highly sought-after, stunning plant that is worthy of any home. they are beautiful plants that can be successfully grown inside.</p>\n<p>this plant needs to mature to roughly 5 feet before it flowers </p>\n",
+    "scientific_name": "s.reginae",
+    "family": "Strelitziaceae",
+    "genus": "Strelitzia",
+    "categories": ["houseplant"],
+    "care": [
+      "full sun, partial shade",
+      "throughout the spring and summer by watering 1-2 times per week",
+      "allow his soil to dry out between watering in the fall and winter",
+      "mature size: 3.5-6 feet tall, 3-4 feet wide"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/houseplants/birdofparadise-1.jpg",
+        "alt": "bird of paradise"
+      },
+      {
+        "src": "./img/houseplants/birdofparadise-2.jpg",
+        "alt": "bird of paradise"
+      },
+      {
+        "src": "./img/houseplants/birdofparadise-3.jpg",
+        "alt": "bird of paradise"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "price": "9.99",
+    "prices": [
+      {
+        "label": "small 3-4\"",
+        "value": "9.99"
+      },
+      {
+        "label": "medium 5-6\"",
+        "value": "34.99"
+      },
+      {
+        "label": "large 8-10\"",
+        "value": "119.99"
+      }
+    ],
+    "name": "Rubber Plant (Burgundy)",
+    "description": "This cultivar of the Rubber Tree Plant (Ficus Elastica \"Burgundy\") is highly coveted for its wide, glossy leaves that grow in hues of dark red before settling into their dark green colour.",
+    "descriptionHtml": "<p>This cultivar of the Rubber Tree Plant (Ficus Elastica &quot;Burgundy&quot;) is highly coveted for its wide, glossy leaves that grow in hues of dark red before settling into their dark green colour.</p>\n",
+    "scientific_name": "F.elastica",
+    "family": "Moraceae",
+    "genus": "Ficus",
+    "categories": ["houseplant"],
+    "care": [
+      "bright full sun",
+      "water bout once a week or whenever the top half of the soil is dry",
+      "Wipe down leaves once a month with a cloth and warm water to keep the leaves nice and shiny",
+      "mature size: 10 feet"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/houseplants/rubber-plant-2.jpg",
+        "alt": "rubber plant"
+      },
+      {
+        "src": "./img/houseplants/rubber-plant-1.jpg",
+        "alt": "rubber plant"
+      },
+      {
+        "src": "./img/houseplants/rubber-plant-3.jpg",
+        "alt": "rubber plant"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "price": "9..99",
+    "prices": [
+      {
+        "label": "small 3-4\"",
+        "value": "9.99"
+      },
+      {
+        "label": "medium 5-6\"",
+        "value": "24.99"
+      }
+    ],
+    "name": "Croton Petra",
+    "description": "The Croton Petra gets its scientific name from the distinct, variegated leaves it produces, which are light green with dark green spots at the centre of each section. When the conditions are right, the Croton Petra produces a number of small, white flowers with long stems.",
+    "descriptionHtml": "<p>The Croton Petra gets its scientific name from the distinct, variegated leaves it produces, which are light green with dark green spots at the centre of each section. When the conditions are right, the Croton Petra produces a number of small, white flowers with long stems.</p>\n",
+    "scientific_name": "Codiaeum Variegatum",
+    "family": "Euphorbiaceae",
+    "genus": "Codiaeum",
+    "categories": ["houseplant"],
+    "care": [
+      "bright full sun, partial shade",
+      "water the plant thoroughly until the water flows out the bottom of the container",
+      "mature size: 6 feet"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/houseplants/croton-petra-1.jpg",
+        "alt": "Croton Petra"
+      },
+      {
+        "src": "./img/houseplants/croton-petra-2.jpg",
+        "alt": "Croton Petra"
+      },
+      {
+        "src": "./img/houseplants/croton-petra-3.jpg",
+        "alt": "Croton Petra"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "price": "9.99",
+    "prices": [
+      {
+        "label": "small 3-4\"",
+        "value": "9.99"
+      },
+      {
+        "label": "medium 5-6\"",
+        "value": "14.99"
+      }
+    ],
+    "name": "Prayer Plant",
+    "description": "The Prayer Plant gets its name because its leaves fold up at night like praying hands. The dark spots on the sides of Prayer Plant leaves, provide a very nice contrast for the light-coloured edges. Prayer plants come in different colour variants.",
+    "descriptionHtml": "<p>The Prayer Plant gets its name because its leaves fold up at night like praying hands. The dark spots on the sides of Prayer Plant leaves, provide a very nice contrast for the light-coloured edges. Prayer plants come in different colour variants.</p>\n",
+    "scientific_name": "M.leuconeura",
+    "family": "Marantaceae",
+    "genus": "Maranta L.",
+    "categories": ["houseplant"],
+    "care": [
+      "medium to bright indirect light",
+      "Water every 1–2 weeks, allowing the soil to dry out halfway between waterings",
+      "mature size: 10 feet"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/houseplants/prayer-plant-1.jpg",
+        "alt": "Prayer Plant"
+      },
+      {
+        "src": "./img/houseplants/prayer-plant-2.jpg",
+        "alt": "Prayer Plant"
+      },
+      {
+        "src": "./img/houseplants/prayer-plant-4.jpg",
+        "alt": "Prayer Plant"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "price": "9.99",
+    "prices": [
+      {
+        "label": "small 3-4\"",
+        "value": "9.99"
+      },
+      {
+        "label": "medium 5-6\"",
+        "value": "14.99"
+      },
+      {
+        "label": "large 8-10\"",
+        "value": "19.99"
+      }
+    ],
+    "name": "Golden Pothos",
+    "description": "The Golden Pothos is one of the most well-known house plants, popular due to its easy-going nature and ability to thrive in all sorts of environments. A vining plant, Golden Pothos looks fantastic in a hanging basket or stacked up in a pot. This plant features teardrop-shaped leaves with lovely splashes of golden variegation.",
+    "descriptionHtml": "<p>The Golden Pothos is one of the most well-known house plants, popular due to its easy-going nature and ability to thrive in all sorts of environments. A vining plant, Golden Pothos looks fantastic in a hanging basket or stacked up in a pot. This plant features teardrop-shaped leaves with lovely splashes of golden variegation.</p>\n",
+    "scientific_name": "E.Aureum",
+    "family": "Araceae",
+    "genus": "Epipremnum",
+    "categories": ["houseplant"],
+    "care": [
+      "low light to bright, indirect light",
+      "Water only when the top few inches of the soil is dry or when the leaves appear to droop",
+      "mature size: 10-20 feet long vines"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/houseplants/golden-pothos-3.jpg",
+        "alt": "Golden Pothos"
+      },
+      {
+        "src": "./img/houseplants/golden-pothos-1.jpg",
+        "alt": "Golden Pothos"
+      },
+      {
+        "src": "./img/houseplants/golden-pothos-2.jpg",
+        "alt": "Golden Pothos"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "price": "39.99",
+    "prices": [
+      {
+        "label": "large 8-10\"",
+        "value": "39.99"
+      }
+    ],
+    "name": "Dragon Tree",
+    "description": "the Dragon Tree, is a super hardy subtropical tree native to the Canary Islands, Cape Verde, Madeira, and Morocco. \n\nA popular indoor plant due to its easy-going nature and attractive growth habits. This plant produces long, delicate branches with compact clusters of sword-like leaves.",
+    "descriptionHtml": "<p>the Dragon Tree, is a super hardy subtropical tree native to the Canary Islands, Cape Verde, Madeira, and Morocco. </p>\n<p>A popular indoor plant due to its easy-going nature and attractive growth habits. This plant produces long, delicate branches with compact clusters of sword-like leaves.</p>\n",
+    "scientific_name": "D.Marginata",
+    "family": "Asparagaceae",
+    "genus": "Dracaena",
+    "categories": ["houseplant"],
+    "care": [
+      "low to bright, indirect light",
+      "This plant is drought tolerant so water only when at the top half of the soil is completely dry",
+      "mature size: 6-10 feet"
+    ],
+    "image": {},
+    "images": [
+      {
+        "src": "./img/houseplants/dragon-plant-1.jpg",
+        "alt": "Dragon Tree"
+      },
+      {
+        "src": "./img/houseplants/dragon-plant-2.jpg",
+        "alt": "Dragon Tree"
+      },
+      {
+        "src": "./img/houseplants/dragon-plant-3.jpg",
+        "alt": "Dragon Tree"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "price": "",
+    "prices": [
+      {
+        "label": "small 3-4\"",
+        "value": "9.99"
+      },
+      {
+        "label": "medium 5-6\"",
+        "value": "14.99"
+      }
+    ],
+    "name": "Parlour Palm",
+    "description": "Parlour Palm, also known as Bella Palm, is a small palm species native to the rainforests of Southern Mexico and Guatemala. It is loved by plant growers due to its delicate fronds and soft, wistful appearance.",
+    "descriptionHtml": "<p>Parlour Palm, also known as Bella Palm, is a small palm species native to the rainforests of Southern Mexico and Guatemala. It is loved by plant growers due to its delicate fronds and soft, wistful appearance.</p>\n",
+    "scientific_name": "C.elegans",
+    "family": "Arecaceae",
+    "genus": "Chamaedorea",
+    "categories": ["houseplant"],
+    "care": ["bright indirect sun", "water when the top few inches of soil are dry", "mature size: 6 feet"],
+    "image": {
+      "alt": "Plant"
+    },
+    "images": [
+      {
+        "src": "./img/houseplants/parlour-palm-1.jpg",
+        "alt": "Parlour Palm"
+      },
+      {
+        "src": "./img/houseplants/parlour-palm-2.jpg",
+        "alt": "Parlour Palm"
+      },
+      {
+        "src": "./img/houseplants/parlour-palm-3.jpg",
+        "alt": "Parlour Palm"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "price": "",
+    "prices": [
+      {
+        "label": "white",
+        "value": "38.99"
+      },
+      {
+        "label": "blue",
+        "value": "38.99"
+      },
+      {
+        "label": "black",
+        "value": "38.99"
+      }
+    ],
+    "name": "Mini Ferro Pot (set of 3)",
+    "description": "Planter Pot With Drainage , Eco-Friendly Mini Ferro Pot for Succulents and Small Plants 3 Inch, Plant Based Plastic (Set of 3)",
+    "descriptionHtml": "<p>Planter Pot With Drainage , Eco-Friendly Mini Ferro Pot for Succulents and Small Plants 3 Inch, Plant Based Plastic (Set of 3)</p>\n",
+    "scientific_name": "",
+    "family": "",
+    "genus": "",
+    "categories": ["pots"],
+    "care": [],
+    "image": {
+      "alt": "Plant"
+    },
+    "images": [
+      {
+        "src": ".img/pots/ferro-pots-1.jpg",
+        "alt": "Mini Ferro Pot (set of 3)"
+      },
+      {
+        "src": ".img/pots/ferro-pots-2.jpg",
+        "alt": "Mini Ferro Pot (set of 3) - black"
+      },
+      {
+        "src": ".img/pots/ferro-pots-3.jpg",
+        "alt": "Mini Ferro Pot (set of 3) - blue"
+      },
+      {
+        "src": ".img/pots/ferro-pots-4.jpg",
+        "alt": "Mini Ferro Pot (set of 3) - white"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "price": "",
+    "prices": [
+      {
+        "label": "sphere",
+        "value": "13.99"
+      },
+      {
+        "label": "cylinder",
+        "value": "13.99"
+      },
+      {
+        "label": "geometric",
+        "value": "13.99"
+      }
+    ],
+    "name": "pink succulent pot",
+    "description": "Lovely pink colors, beautiful marbling, smooth and delicate craftmanship, all make the small planters a perfect gift for small plant lovers. Each of the planter comes with a drainage hole at the bottom and a round bamboo tray.",
+    "descriptionHtml": "<p>Lovely pink colors, beautiful marbling, smooth and delicate craftmanship, all make the small planters a perfect gift for small plant lovers. Each of the planter comes with a drainage hole at the bottom and a round bamboo tray.</p>\n",
+    "scientific_name": "",
+    "family": "",
+    "genus": "",
+    "categories": ["pots"],
+    "care": [],
+    "image": {
+      "alt": "Plant"
+    },
+    "images": [
+      {
+        "src": ".img/pots/pink-ceramic-1.jpg",
+        "alt": "pink succulent pot"
+      },
+      {
+        "src": ".img/pots/pink-ceramic-2.jpg",
+        "alt": "pink succulent pot"
+      },
+      {
+        "src": ".img/pots/pink-ceramic-3.jpg",
+        "alt": "pink succulent pot"
+      },
+      {
+        "src": ".img/pots/pink-ceramic-4.jpg",
+        "alt": "pink succulent pot"
+      }
+    ]
+  }
+]

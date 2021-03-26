@@ -1,0 +1,14 @@
+@import "mixins";
+
+.checkout-nav {
+  .main-nav {
+    .header-info {
+      justify-content: space-evenly;
+    }
+  }
+}
+
+.checkout-card {
+  @include offwhite;
+  height: 400px;
+}

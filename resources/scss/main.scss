@@ -1,4 +1,3 @@
-
 //MIXINS
 @import "mixins";
 
@@ -16,6 +15,15 @@
 
 //FOOTER
 @import "footer";
+
+//PRODUCTS
+@import "products";
+
+//DESCRIPTION
+@import "details";
+
+//CHECKOUT
+@import "checkout";
 
 //SPAN FONT COLOURS
 
@@ -39,7 +47,25 @@
   color: #fbf1c0;
 }
 
+.fill-green {
+  fill: #83e0bc;
+}
 
+.fill-darkbrown {
+  fill: #965320;
+}
+
+.fill-medbrown {
+  fill: #b98a58;
+}
+
+.fill-lightbrown {
+  fill: #d8ba88;
+}
+
+.fill-beige {
+  fill: #fbf1c0;
+}
 
 html {
   scroll-behavior: smooth;
