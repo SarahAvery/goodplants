@@ -10,5 +10,234 @@
 
 .checkout-card {
   @include offwhite;
-  height: 400px;
+  width: 100%;
+  height: auto;
+  padding: 40px 5% 20px 5%;
+
+  .card {
+    max-width: 1300px;
+    border-top: 2px solid #83e0bc;
+    height: auto;
+    padding: 20px 0;
+    line-height: 1.2;
+
+    .content {
+      padding: 15px 0;
+      display: flex;
+      flex-wrap: nowrap;
+      border-bottom: 1px solid #83e0bc;
+
+      .image {
+        height: 100px;
+        width: 100px;
+        img {
+          object-fit: contain;
+          border-radius: 20px;
+          height: 100%;
+        }
+      }
+
+      .information {
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+
+        .title {
+          width: 100%;
+        }
+        //QUANTITY
+        .quantity {
+          width: 50%;
+          display: flex;
+          align-items: center;
+          padding-top: 10px;
+
+          p {
+            padding-right: 15px;
+          }
+
+          span {
+            cursor: pointer;
+          }
+
+          .number {
+            margin: 5px 0;
+
+            .minus,
+            .plus {
+              width: 35px;
+              height: 35px;
+              @include offwhite;
+              border-radius: 4px;
+              padding: 8px 5px 8px 5px;
+              display: inline-block;
+              vertical-align: middle;
+              text-align: center;
+              border: 1px solid #965320;
+              outline: none;
+            }
+            input {
+              height: 35px;
+              width: 70px;
+              text-align: center;
+              border: 1px solid #965320;
+              border-radius: 4px;
+              display: inline-block;
+              vertical-align: middle;
+            }
+          }
+        }
+
+        .subtotal {
+          width: 50%;
+          display: flex;
+          align-items: center;
+          padding-top: 10px;
+
+          p {
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+
+    .continue {
+      background: rgba(135, 206, 250, 0.253);
+      height: 400px;
+      border-top: 2px solid #83e0bc;
+      padding: 20px 0;
+
+      .cart-subtotal {
+        margin-left: 150px;
+        display: flex;
+
+        h3 {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  h2,
+  h3 {
+    font-size: 24px;
+    padding: 5px 0;
+    color: #965320;
+    font-weight: bolder;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 24px;
+    padding: 5px 0;
+    color: #111;
+    font-weight: bold;
+  }
+
+  h5 {
+    padding: 5px 0;
+    font-size: 16px;
+    color: #111;
+    font-weight: 400;
+  }
+
+  p {
+    padding: 5px 0;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .checkout-card {
+    .card {
+      .content {
+        .information {
+          .title {
+            width: 100%;
+          }
+          //QUANTITY
+          .quantity {
+            max-width: 50%;
+            min-width: 300px;
+          }
+
+          .subtotal {
+            max-width: 50%;
+            min-width: 300px;
+          }
+        }
+      }
+
+      //   .continue {
+      //     background: rgba(135, 206, 250, 0.253);
+      //     height: 400px;
+      //     border-top: 2px solid #83e0bc;
+      //     padding: 20px 0;
+      //   }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .checkout-card {
+    .card {
+      .continue {
+        background: rgba(135, 206, 250, 0.253);
+        height: 400px;
+        border-top: 2px solid #83e0bc;
+        padding: 20px 0;
+
+        .cart-subtotal {
+          margin-left: 0;
+          display: flex;
+          border-bottom: 1px solid #b98a58;
+
+          h3 {
+            width: auto;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .checkout-card {
+    @include offwhite;
+
+    .card {
+      max-width: 1300px;
+      border-top: 2px solid #83e0bc;
+      height: auto;
+      padding: 20px 0;
+      line-height: 1.2;
+
+      .content {
+        flex-wrap: wrap;
+        padding-top: 20px;
+
+        .information {
+          margin-top: 10px;
+          margin-left: 0;
+
+          //QUANTITY
+          .quantity {
+            max-width: 100%;
+            background: pink;
+            min-width: 100%;
+          }
+
+          .subtotal {
+            max-width: 100%;
+            background: yellow;
+            min-width: 100%;
+          }
+        }
+      }
+    }
+  }
 }

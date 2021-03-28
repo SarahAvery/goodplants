@@ -80,7 +80,83 @@
     <!-- </section>
     </script> -->
 
-    <section class="checkout-card"></section>
+    <section class="checkout-card">
+      <h2>checkout:</h2>
+      <div class="card">
+        <h3>recently added items:</h3>
+
+        <!-- handlebars will be added for class="content" -->
+        <div class="content">
+          <div class="image">
+            <img src="./img/succulents/nurnberg-1.jpg" alt="" />
+          </div>
+          <div class="information">
+            <div class="title">
+              <h4>product.name - size</h4>
+              <!-- {{#if product.scientific_name}} -->
+              <h5>
+                <span
+                  >price:
+                  <em>$ 8.00 each</em>
+                </span>
+              </h5>
+              <!-- {{/if}} -->
+            </div>
+            <div class="quantity">
+              <p>quantity:</p>
+              <div class="number">
+                <button class="minus">-</button>
+                <input type="text" value="1" />
+                <button class="plus">+</button>
+              </div>
+            </div>
+            <div class="subtotal">
+              <p>subtotal:</p>
+              <p>$8.00</p>
+            </div>
+          </div>
+        </div>
+        <!-- just for exapmle - delete below card later -->
+
+        <div class="content">
+          <div class="image">
+            <img src="./img/airplants/aeranthos-1.jpg" alt="" />
+          </div>
+          <div class="information">
+            <div class="title">
+              <h4>nurnberg von perle - medium 3-5"</h4>
+              <!-- {{#if product.scientific_name}} -->
+              <h5>
+                <span
+                  >price:
+                  <em>$ 8.00 each</em>
+                </span>
+              </h5>
+              <!-- {{/if}} -->
+            </div>
+            <div class="quantity">
+              <p>quantity:</p>
+              <div class="number">
+                <button class="minus">-</button>
+                <input type="text" value="1" />
+                <button class="plus">+</button>
+              </div>
+            </div>
+            <div class="subtotal">
+              <p>subtotal:</p>
+              <p>$8.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="continue">
+          <div class="cart-subtotal">
+            <h3>cart subtotal:</h3>
+            <p>$8.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer>
       <nav class="wrapper">
@@ -144,7 +220,7 @@
       </div>
     </footer>
 
-    <script src="./js/products.js"></script>
+    <!-- <script src="./js/products.js"></script> -->
     <!-- <script src="./js/index.js"></script> -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.1/qs.min.js"
