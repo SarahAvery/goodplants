@@ -115,7 +115,7 @@ var slider = function () {
   };
 }();
 
-fetch("http://localhost:3000/img/data.json").then(function (res) {
+fetch("./img/data.json").then(function (res) {
   return res.json();
 }).then(function (json) {
   var params = Qs.parse(window.location.search.substr(1));
