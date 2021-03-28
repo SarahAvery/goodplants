@@ -148,8 +148,12 @@ fetch("http://localhost:3000/img/data.json")
         input.value = quantityCounter.value();
       });
 
-      const sizesRadio = document.querySelectorAll('.sizes input[type="radio"]');
-      const price = document.querySelector(".details-section .page-content .product-info .price");
+      const sizesRadio = document.querySelectorAll(
+        '.sizes input[type="radio"]'
+      );
+      const price = document.querySelector(
+        ".details-section .page-content .product-info .price"
+      );
       let radioChecked = null;
       Array.from(sizesRadio).forEach((r) =>
         r.addEventListener("click", (e) => {
