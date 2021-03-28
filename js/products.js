@@ -18,7 +18,7 @@
 //     care: string;
 //     image: Image;
 //   }
-fetch("http://localhost:3000/img/data.json").then(function (res) {
+fetch("/img/data.json").then(function (res) {
   return res.json();
 }).then(function (json) {
   var data = {
