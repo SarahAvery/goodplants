@@ -1,5 +1,4 @@
-console.log("pizza pizza"); //STICKY NAV//
-
+//STICKY NAV//
 window.onscroll = function () {
   myFunction();
 };

@@ -1,8 +1,7 @@
 // import { Qs } from "qs";
-console.log("description"); //COUNTER//
+//COUNTER//
 
 /** Counter using an es5 style "class" */
-
 var Counter = function Counter() {
   var initialCount = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
   this.count = initialCount;

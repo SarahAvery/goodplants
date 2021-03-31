@@ -1037,7 +1037,7 @@ section.details-care {
   background-color: #f8f5f5;
   width: 100%;
   height: auto;
-  padding: 40px 5% 20px 5%; }
+  padding: 40px 5% 0 5%; }
   .checkout-card .card {
     max-width: 1300px;
     border-top: 2px solid #83e0bc;
@@ -1102,15 +1102,49 @@ section.details-care {
           .checkout-card .card .content .information .subtotal p {
             padding-right: 10px; }
     .checkout-card .card .continue {
-      background: rgba(135, 206, 250, 0.253);
-      height: 400px;
+      height: auto;
       border-top: 2px solid #83e0bc;
-      padding: 20px 0; }
+      padding-top: 20px;
+      min-height: 300px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly; }
       .checkout-card .card .continue .cart-subtotal {
         margin-left: 150px;
-        display: flex; }
+        display: flex;
+        font-weight: bolder;
+        width: 100%; }
         .checkout-card .card .continue .cart-subtotal h3 {
           width: 50%; }
+      .checkout-card .card .continue .policy {
+        margin: 20px 0;
+        width: 100%; }
+        .checkout-card .card .continue .policy p {
+          font-size: 16px;
+          text-align: center; }
+      .checkout-card .card .continue .checkout-btn {
+        font-size: 18px; }
+        .checkout-card .card .continue .checkout-btn ul {
+          margin: 0 auto;
+          height: auto;
+          font-weight: bolder; }
+          .checkout-card .card .continue .checkout-btn ul li {
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+            .checkout-card .card .continue .checkout-btn ul li a {
+              background-color: #83e0bc;
+              padding: 15px 50px;
+              border-radius: 20px;
+              width: auto;
+              height: auto;
+              display: flex; }
+              .checkout-card .card .continue .checkout-btn ul li a svg {
+                width: 30px; }
+              .checkout-card .card .continue .checkout-btn ul li a p {
+                font-size: 26px;
+                margin-left: 15px; }
   .checkout-card h2,
   .checkout-card h3 {
     font-size: 24px;
