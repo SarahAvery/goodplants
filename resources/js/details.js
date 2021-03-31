@@ -1,7 +1,5 @@
 // import { Qs } from "qs";
 
-console.log("description");
-
 //COUNTER//
 
 /** Counter using an es5 style "class" */
@@ -96,7 +94,7 @@ const slider = (() => {
   };
 })();
 
-fetch("http://localhost:3000/img/data.json")
+fetch("./img/data.json")
   .then((res) => res.json())
   .then((json) => {
     const params = Qs.parse(window.location.search.substr(1));
@@ -148,12 +146,8 @@ fetch("http://localhost:3000/img/data.json")
         input.value = quantityCounter.value();
       });
 
-      const sizesRadio = document.querySelectorAll(
-        '.sizes input[type="radio"]'
-      );
-      const price = document.querySelector(
-        ".details-section .page-content .product-info .price"
-      );
+      const sizesRadio = document.querySelectorAll('.sizes input[type="radio"]');
+      const price = document.querySelector(".details-section .page-content .product-info .price");
       let radioChecked = null;
       Array.from(sizesRadio).forEach((r) =>
         r.addEventListener("click", (e) => {

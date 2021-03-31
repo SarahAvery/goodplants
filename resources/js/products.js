@@ -20,7 +20,7 @@
 //     image: Image;
 //   }
 
-fetch("/img/data.json")
+fetch("./img/data.json")
   .then((res) => res.json())
   .then((json) => {
     const data = { products: json };
@@ -80,8 +80,7 @@ fetch("/img/data.json")
         const val = e.target.value;
 
         if (val.length > 2 || val.length === 0) {
-          const predicate = (product) =>
-            product.name.toLowerCase().indexOf(val.toLowerCase()) > -1;
+          const predicate = (product) => product.name.toLowerCase().indexOf(val.toLowerCase()) > -1;
           const matches = data.products.filter(predicate);
 
           const compiled = template({ products: matches });
@@ -92,9 +91,7 @@ fetch("/img/data.json")
 
       const filterOnLoad = () => {
         const filterByCategory = (product) =>
-          categoriesParam
-            ? product.categories.some((cat) => categoriesParam.includes(cat))
-            : true;
+          categoriesParam ? product.categories.some((cat) => categoriesParam.includes(cat)) : true;
         const matches = data.products.filter(filterByCategory);
         // execute the compiled template and print the output to the console
         const compiled = template({ products: matches });

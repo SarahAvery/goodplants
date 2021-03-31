@@ -36,7 +36,14 @@ function copyCss() {
 }
 
 function copyHtml() {
-  return src("./pages/**/*.html").pipe(replace("~baseUrl", "")).pipe(dest("./dist/"));
+  return src("./pages/**/*.html")
+    .pipe(
+      replace(/~baseUrl/gm, function (match, offset, string) {
+        console.log("Found " + match + " at " + offset);
+        return "";
+      })
+    )
+    .pipe(dest("./dist/"));
 }
 
 function copyHtmlProduction() {
@@ -78,10 +85,15 @@ exports.build = function (done) {
   done();
 };
 
-exports.default = function () {
+exports.default = function (done) {
   bSync();
-  transpileJS();
   watch("resources/scss/**/*.scss", { ignoreInitial: false }, series(clean("css"), scss, copyCss));
   watch("pages/*.html", { ignoreInitial: false }, series(copyHtml, copyImgs, reload));
   watch("resources/js/**/*.js", { ignoreInitial: false }, series(clean("js"), transpileJS, reload));
+  done();
 };
+
+process.on("SIGINT", (sig) => {
+  console.log(sig);
+  setTimeout(() => process.exit(1), 500);
+});

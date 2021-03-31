@@ -1,5 +1,3 @@
-console.log("pizza pizza");
-
 //STICKY NAV//
 
 window.onscroll = function () {

@@ -12,7 +12,7 @@
   @include offwhite;
   width: 100%;
   height: auto;
-  padding: 40px 5% 20px 5%;
+  padding: 40px 5% 0 5%;
 
   .card {
     max-width: 1300px;
@@ -103,17 +103,65 @@
     }
 
     .continue {
-      background: rgba(135, 206, 250, 0.253);
-      height: 400px;
+      height: auto;
       border-top: 2px solid #83e0bc;
-      padding: 20px 0;
+      padding-top: 20px;
+      min-height: 300px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
 
       .cart-subtotal {
         margin-left: 150px;
         display: flex;
+        font-weight: bolder;
+        width: 100%;
 
         h3 {
           width: 50%;
+        }
+      }
+
+      .policy {
+        margin: 20px 0;
+        width: 100%;
+
+        p {
+          font-size: 16px;
+          text-align: center;
+        }
+      }
+
+      .checkout-btn {
+        font-size: 18px;
+
+        ul {
+          margin: 0 auto;
+          height: auto;
+          font-weight: bolder;
+          li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+              @include green;
+              padding: 15px 50px;
+              border-radius: 20px;
+              width: auto;
+              height: auto;
+              display: flex;
+
+              svg {
+                width: 30px;
+              }
+
+              p {
+                font-size: 26px;
+                margin-left: 15px;
+              }
+            }
+          }
         }
       }
     }
