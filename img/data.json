@@ -532,15 +532,11 @@
         "alt": "Echeveria Lotus succulent"
       },
       {
-        "src": "./img/succulents/echeveria-lotus-2.png",
+        "src": "./img/succulents/echeveria-lotus-2.jpg",
         "alt": "Echeveria Lotus succulent"
       },
       {
-        "src": "./img/succulents/echeveria-lotus-3.png",
-        "alt": "Echeveria Lotus succulent"
-      },
-      {
-        "src": "./img/succulents/echeveria-lotus-4.png",
+        "src": "./img/succulents/echeveria-lotus-3.jpg",
         "alt": "Echeveria Lotus succulent"
       }
     ]
@@ -803,14 +799,6 @@
       },
       {
         "src": "./img/succulents/balloon-2.jpg",
-        "alt": "Balloon Cactus succulent"
-      },
-      {
-        "src": "./img/succulents/balloon-3.jpg",
-        "alt": "Balloon Cactus succulent"
-      },
-      {
-        "src": "./img/succulents/balloon-4.jpg",
         "alt": "Balloon Cactus succulent"
       }
     ]
@@ -1384,19 +1372,19 @@
     },
     "images": [
       {
-        "src": ".img/pots/ferro-pots-1.jpg",
+        "src": "./img/pots/ferro-pots-1.jpg",
         "alt": "Mini Ferro Pot (set of 3)"
       },
       {
-        "src": ".img/pots/ferro-pots-2.jpg",
+        "src": "./img/pots/ferro-pots-2.jpg",
         "alt": "Mini Ferro Pot (set of 3) - black"
       },
       {
-        "src": ".img/pots/ferro-pots-3.jpg",
+        "src": "./img/pots/ferro-pots-3.jpg",
         "alt": "Mini Ferro Pot (set of 3) - blue"
       },
       {
-        "src": ".img/pots/ferro-pots-4.jpg",
+        "src": "./img/pots/ferro-pots-4.jpg",
         "alt": "Mini Ferro Pot (set of 3) - white"
       }
     ]
@@ -1431,19 +1419,19 @@
     },
     "images": [
       {
-        "src": ".img/pots/pink-ceramic-1.jpg",
+        "src": "./img/pots/pink-ceramic-1.jpg",
         "alt": "pink succulent pot"
       },
       {
-        "src": ".img/pots/pink-ceramic-2.jpg",
+        "src": "./img/pots/pink-ceramic-2.jpg",
         "alt": "pink succulent pot"
       },
       {
-        "src": ".img/pots/pink-ceramic-3.jpg",
+        "src": "./img/pots/pink-ceramic-3.jpg",
         "alt": "pink succulent pot"
       },
       {
-        "src": ".img/pots/pink-ceramic-4.jpg",
+        "src": "./img/pots/pink-ceramic-4.jpg",
         "alt": "pink succulent pot"
       }
     ]
