@@ -9,16 +9,16 @@ header {
     width: 100%;
     padding: 5px 20px;
     height: 30px;
-    @include darkbrown;
+    background-color: #faa19e;
 
     svg {
       height: 20px;
       width: 20px;
       margin: 0 10px;
-      fill: #fbf1c0;
+      fill: #fff;
     }
     svg:hover {
-      fill: #e1ae00;
+      fill: #a69efa;
     }
   }
 
@@ -26,6 +26,8 @@ header {
     @include green;
     height: auto;
     padding: 250px 0;
+    padding: 120px 0;
+    background-color: #fff;
 
     .banner-text {
       .brand-name {
@@ -39,29 +41,25 @@ header {
 
 //NAV BAR//
 .main-nav {
-  @include darkbrown;
   width: 100%;
   height: auto;
   padding: 5px 0;
+  background-color: #9efaad;
 
   .header-info {
     justify-content: center;
     align-items: center;
+
     .logo {
-      width: 80px;
-      height: 60px;
+      width: 70px;
+      height: 70px;
       padding: 5px;
 
       .circle {
-        background-image: url(../img/lightbrown-logo.png);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 100%;
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        background: #facf9e;
+        border-radius: 50%;
 
         a {
           width: 100%;
@@ -100,18 +98,20 @@ header {
               font-size: 18px;
 
               span:hover {
-                color: #e1ae00;
+                color: #a69efa;
+                text-decoration: underline;
               }
 
               svg {
                 width: 30px;
                 height: auto;
-                fill: #fbf1c0;
+                fill: #faa19e;
+
                 transition: 0.2s ease-in-out;
               }
 
               svg:hover {
-                fill: #e1ae00;
+                fill: #a69efa;
               }
             }
             .search {
@@ -129,6 +129,8 @@ header {
                 border-radius: 8px;
                 margin: 0 20px;
                 border: 1px solid #965320;
+                outline: none;
+                padding: 3px 0 3px 5px;
               }
             }
           }

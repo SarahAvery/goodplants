@@ -1,21 +1,5 @@
 @import "mixins";
 
-// header.details-header {
-//   .header-banner {
-//     // @include green;
-//     // height: auto;
-//     // padding: 50px 0;
-
-//     .banner-text {
-//       .brand-name {
-//         // font-size: 120px;
-//         // @include brand-name;
-//         // padding: 10px 0;
-//       }
-//     }
-//   }
-// }
-
 //NAV BAR//
 .main-nav {
   .header-info {
@@ -23,22 +7,6 @@
       nav {
         ul {
           li {
-            // a {
-            //   // span:hover {
-            //   //   //color: #e1ae00;
-            //   // }
-
-            //   // svg {
-            //   //   // width: 30px;
-            //   //   // height: auto;
-            //   //   // //fill: #fbf1c0;
-            //   //   // transition: 0.2s ease-in-out;
-            //   // }
-
-            //   // svg:hover {
-            //   //   // fill: #e1ae00;
-            //   // }
-            // }
             .search {
               display: flex;
             }
@@ -82,7 +50,6 @@
           height: auto;
           object-fit: fill;
           object-fit: cover;
-
           border-radius: 20px;
           display: block;
           height: 350px;
@@ -95,7 +62,6 @@
         display: flex;
         width: 100%;
         justify-content: center;
-        //background-color: powderblue;
         align-items: center;
         height: 80px;
         .arrow {
@@ -109,11 +75,12 @@
             border-radius: 0 3px 3px 0;
             user-select: none;
             -webkit-user-select: none;
+            color: #9efaad;
           }
 
           .prev:hover,
           .next:hover {
-            color: #b98a58;
+            color: #a69efa;
           }
         }
 
@@ -206,17 +173,16 @@
           }
 
           label {
-            @include lightbrown;
             padding: 15px 30px;
             margin-right: 10px;
             border-radius: 20px;
-            //font-size: 18px;
             outline: none;
             border: 1px solid #965320;
+            background-color: #facf9e;
           }
 
           input:checked + label {
-            @include yellow;
+            background-color: #9efaad;
           }
         }
       }
@@ -284,21 +250,24 @@
           padding: 5px 30px;
           border-radius: 20px;
           border: 1px solid #965320;
-          @include green;
+          background-color: #faa19e;
+          color: #fbf1c0;
 
           svg {
             width: 30px;
             height: auto;
-            fill: #fbf1c0;
             transition: 0.2s ease-in-out;
             margin: 5px 10px;
+            fill: #9efaad;
           }
         }
         a:hover {
-          @include medbrown;
-
+          background-color: #9efaad;
+          svg {
+            fill: #faa19e;
+          }
           span {
-            color: #fbf1c0;
+            color: #965320;
           }
         }
       }
@@ -356,20 +325,20 @@ section.details-care {
         // every first svg fill in loop
         &:nth-child(3n + 1) {
           svg {
-            fill: #83e0bc;
+            fill: #9efaad;
           }
         }
         //every second svg fill in loop
         &:nth-child(3n + 2) {
           svg {
-            fill: #b98a58;
+            fill: #a69efa;
           }
         }
 
         //every third svg fill in loop
         &:nth-child(3n) {
           svg {
-            fill: #965320;
+            fill: #faa19e;
           }
         }
 

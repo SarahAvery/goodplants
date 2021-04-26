@@ -3,14 +3,14 @@
 @import "guarantee";
 
 .procduct-body {
-  @include medbrown;
+  background-color: #fff;
 }
 
 header.products {
   .header-banner {
-    @include green;
     height: auto;
     padding: 0;
+    background-color: #fff;
 
     .background {
       height: 300px;
@@ -22,13 +22,6 @@ header.products {
         object-fit: cover;
       }
     }
-
-    // .banner-text {
-    //   .brand-name {
-    //     font-size: 120px;
-    //     @include brand-name;
-    //     padding: 10px 0;
-    //   }
   }
 }
 
@@ -42,7 +35,8 @@ header.products {
             a {
               span:hover,
               span.active {
-                color: #e1ae00;
+                color: #a69efa;
+                text-decoration: underline;
               }
 
               svg:hover {
@@ -51,6 +45,7 @@ header.products {
             }
             .search {
               display: flex;
+              align-items: center;
             }
           }
         }
@@ -81,11 +76,10 @@ header.products {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  @include medbrown;
   max-width: 1200px;
   justify-content: center;
   margin: 0% auto;
+  background-color: #fff;
 
   a.card {
     @include offwhite;
@@ -138,25 +132,31 @@ header.products {
           color: #965320;
           background: moccasin;
           border: 1px solid #965320;
+          color: #965320;
 
           &.category-airplant {
-            @include green;
-            color: #965320;
+            background-color: #a69efa;
+            color: #fff;
+            border: 1px solid #fff;
           }
 
           &.category-succulent {
-            @include beige;
-            color: #965320;
+            background-color: #facf9e;
+            border: 1px solid #965320;
           }
 
           &.category-houseplant {
             @include lightbrown;
-            color: #965320;
+            background-color: #9efaad;
+            border: 1px solid #fff;
           }
 
-          &.category-officeplant {
+          &.category-pots,
+          &.category-terrarium {
             @include medbrown;
-            color: #fbf1c0;
+            background-color: #faa19e;
+            color: #fff;
+            border: 1px solid #fff;
           }
         }
       }

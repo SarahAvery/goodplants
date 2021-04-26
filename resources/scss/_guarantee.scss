@@ -1,103 +1,102 @@
 section.guarantee {
-    width: 100%;
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  background-color: #fff;
+
+  .cards {
+    padding: 10px 0;
+    width: auto;
     height: auto;
-    @include beige;
-    padding: 20px 0;
-  
-    .cards {
-      padding: 10px 0;
-      width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    .card {
+      width: 25%;
       height: auto;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: wrap;
-  
-      .card {
-        width: 25%;
+      text-align: center;
+
+      .pic {
         height: auto;
-        text-align: center;
-  
-        .pic {
-          height: auto;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+
+        svg {
+          height: 90px;
+          width: auto;
+          fill: #facf9e;
+        }
+      }
+      .info {
+        display: block;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        padding: 10px 20px;
+
+        p {
           padding: 10px 0;
-  
+          margin: 0 auto;
+        }
+
+        .title {
+          font-weight: bolder;
+          width: 100%;
+          font-size: 20px;
+        }
+
+        .para {
+          width: 100%;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  section.guarantee {
+    .cards {
+      .card {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  section.guarantee {
+    .cards {
+      .card {
+        .pic {
           svg {
-            height: 90px;
-            width: auto;
+            height: 70px;
             fill: #83e0bc;
           }
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  section.guarantee {
+    .cards {
+      .card {
         .info {
-          display: block;
-          flex-wrap: wrap;
-          height: auto;
-          width: 100%;
-          padding: 10px 20px;
-  
-          p {
-            padding: 10px 0;
-            margin: 0 auto;
-          }
-  
+          padding: 10px;
+
           .title {
-            font-weight: bolder;
-            width: 100%;
-            font-size: 20px;
-          }
-  
-          .para {
-            width: 100%;
             font-size: 18px;
           }
-        }
-      }
-    }
-  }
-  
-  @media only screen and (max-width: 1200px) {
-    section.guarantee {
-      .cards {
-        .card {
-          width: 50%;
-        }
-      }
-    }
-  }
-  
-  @media only screen and (max-width: 750px) {
-    section.guarantee {
-      .cards {
-        .card {
-          .pic {
-            svg {
-              height: 70px;
-              fill: #83e0bc;
-            }
+          .para {
+            font-size: 16px;
           }
         }
       }
     }
   }
-  
-  @media only screen and (max-width: 450px) {
-    section.guarantee {
-      .cards {
-        .card {
-          .info {
-            padding: 10px;
-  
-            .title {
-              font-size: 18px;
-            }
-            .para {
-              font-size: 16px;
-            }
-          }
-        }
-      }
-    }
-  }
-  
+}

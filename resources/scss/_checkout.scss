@@ -16,7 +16,7 @@
 
   .card {
     max-width: 1300px;
-    border-top: 2px solid #83e0bc;
+    border-top: 2px solid #faa19e;
     height: auto;
     padding: 20px 0;
     line-height: 1.2;
@@ -25,7 +25,7 @@
       padding: 15px 0;
       display: flex;
       flex-wrap: nowrap;
-      border-bottom: 1px solid #83e0bc;
+      border-bottom: 1px solid #faa19e;
 
       .image {
         height: 100px;
@@ -104,7 +104,7 @@
 
     .continue {
       height: auto;
-      border-top: 2px solid #83e0bc;
+      border-top: 2px solid #faa19e;
       padding-top: 20px;
       min-height: 300px;
       display: flex;
@@ -151,6 +151,8 @@
               width: auto;
               height: auto;
               display: flex;
+              background-color: #facf9e;
+              border: 1px solid #965320;
 
               svg {
                 width: 30px;

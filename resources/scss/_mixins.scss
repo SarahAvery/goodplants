@@ -1,5 +1,10 @@
 //BRAND COLORS
 
+// green = #9efaad
+// pink = #faa19e
+// orange = #facf9e
+// purplr = #a69efa
+
 @mixin green {
   background-color: #83e0bc;
 }
@@ -35,10 +40,14 @@
 @mixin brand-name {
   font-weight: 700;
   font-family: "Comfortaa", cursive;
-  background: #965320;
-  background: -webkit-repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
-  background: -moz-repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
-  background: repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
+  // background: #965320;
+  // background: -webkit-repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
+  // background: -moz-repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
+  // background: repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
+  background: #a69efa;
+  background: -webkit-repeating-linear-gradient(to right, #a69efa 0%, #faa19e 20%, #facf9e 50%, #9efaad 100%);
+  background: -moz-repeating-linear-gradient(to right, #a69efa 0%, #faa19e 20%, #facf9e 50%, #9efaad 100%);
+  background: repeating-linear-gradient(to right, #a69efa 0%, #faa19e 20%, #facf9e 50%, #9efaad 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

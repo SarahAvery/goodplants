@@ -10,42 +10,40 @@
   }
 
   .succulent {
-    @include darkbrown;
+    background-color: #9efaad;
   }
 
   .airplant {
-    @include green;
+    background-color: #faa19e;
   }
 
   .diy {
-    @include lightbrown;
+    background-color: #a69efa;
   }
 
   .pots {
-    @include medbrown;
+    background-color: #facf9e;
   }
 
   .card {
     width: 50%;
     max-height: 400px;
+    color: #965320;
 
     .one {
-      background-image: url(../img/succulent-brown.png);
-      //background-image: url(../img/succulent-1.png);
-      //background-image: url(../img/succulent-2.png);
+      background-image: url(../img/succulents.png);
     }
 
     .two {
-      background-image: url(../img/air-plant-green.png);
+      background-image: url(../img/air-plant.png);
     }
 
     .three {
-      background-image: url(../img/diy-lightbrown.png);
+      background-image: url(../img/diy.png);
     }
 
     .four {
-      //background-image: url(../img/pots-multi.png);
-      background-image: url(../img/rosegold-pots.png);
+      background-image: url(../img/rosegold-pots-transparent.png);
     }
 
     .bg-img {
@@ -85,26 +83,18 @@
             padding: 10px 10px;
             margin: 10px 0;
             border-radius: 5px;
+            color: #965320;
           }
 
-          .btn-pots {
-            border: 3px solid #83e0bc;
-          }
-
-          .btn-diy {
-            border: 3px solid #965320;
-          }
-
-          .btn-airplant {
-            border: 3px solid #965320;
-          }
-
+          .btn-airplant,
+          .btn-diy,
+          .btn-pots,
           .btn-succulent {
-            border: 3px solid #fbf1c0;
+            border: 3px solid #965320;
           }
 
-          a span:hover {
-            color: #e1ae00;
+          a:hover {
+            background-color: rgba(255, 255, 255, 0.5);
           }
         }
       }
