@@ -1,8 +1,8 @@
 section.guarantee {
   width: 100%;
   height: auto;
-  background-color: #fbf1c0;
-  padding: 20px 0; }
+  padding: 20px 0;
+  background-color: #fff; }
   section.guarantee .cards {
     padding: 10px 0;
     width: auto;
@@ -23,7 +23,7 @@ section.guarantee {
         section.guarantee .cards .card .pic svg {
           height: 90px;
           width: auto;
-          fill: #83e0bc; }
+          fill: #facf9e; }
       section.guarantee .cards .card .info {
         display: block;
         flex-wrap: wrap;
@@ -64,54 +64,51 @@ header .icons {
   width: 100%;
   padding: 5px 20px;
   height: 30px;
-  background-color: #965320; }
+  background-color: #faa19e; }
   header .icons svg {
     height: 20px;
     width: 20px;
     margin: 0 10px;
-    fill: #fbf1c0; }
+    fill: #fff; }
   header .icons svg:hover {
-    fill: #e1ae00; }
+    fill: #a69efa; }
 
 header .header-banner {
   background-color: #83e0bc;
   height: auto;
-  padding: 250px 0; }
+  padding: 250px 0;
+  padding: 120px 0;
+  background-color: #fff; }
   header .header-banner .banner-text .brand-name {
     font-size: 120px;
     font-weight: 700;
     font-family: "Comfortaa", cursive;
-    background: #965320;
-    background: -webkit-repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
-    background: -moz-repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
-    background: repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
+    background: #a69efa;
+    background: -webkit-repeating-linear-gradient(to right, #a69efa 0%, #faa19e 20%, #facf9e 50%, #9efaad 100%);
+    background: -moz-repeating-linear-gradient(to right, #a69efa 0%, #faa19e 20%, #facf9e 50%, #9efaad 100%);
+    background: repeating-linear-gradient(to right, #a69efa 0%, #faa19e 20%, #facf9e 50%, #9efaad 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 10px 0; }
 
 .main-nav {
-  background-color: #965320;
   width: 100%;
   height: auto;
-  padding: 5px 0; }
+  padding: 5px 0;
+  background-color: #9efaad; }
   .main-nav .header-info {
     justify-content: center;
     align-items: center; }
     .main-nav .header-info .logo {
-      width: 80px;
-      height: 60px;
+      width: 70px;
+      height: 70px;
       padding: 5px; }
       .main-nav .header-info .logo .circle {
-        background-image: url(../img/lightbrown-logo.png);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 100%;
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
+        width: 100%;
+        background: #facf9e;
+        border-radius: 50%; }
         .main-nav .header-info .logo .circle a {
           width: 100%;
           height: 100%;
@@ -140,14 +137,15 @@ header .header-banner {
             transition: 0.5s ease-in-out;
             font-size: 18px; }
             .main-nav .header-info .nav-desktop nav ul li a span:hover {
-              color: #e1ae00; }
+              color: #a69efa;
+              text-decoration: underline; }
             .main-nav .header-info .nav-desktop nav ul li a svg {
               width: 30px;
               height: auto;
-              fill: #fbf1c0;
+              fill: #faa19e;
               transition: 0.2s ease-in-out; }
             .main-nav .header-info .nav-desktop nav ul li a svg:hover {
-              fill: #e1ae00; }
+              fill: #a69efa; }
           .main-nav .header-info .nav-desktop nav ul li .search {
             display: none;
             padding: 10px;
@@ -159,7 +157,9 @@ header .header-banner {
               background-color: #f8f5f5;
               border-radius: 8px;
               margin: 0 20px;
-              border: 1px solid #965320; }
+              border: 1px solid #965320;
+              outline: none;
+              padding: 3px 0 3px 5px; }
 
 .sticky {
   position: fixed;
@@ -294,8 +294,8 @@ header .header-banner {
 section.guarantee {
   width: 100%;
   height: auto;
-  background-color: #fbf1c0;
-  padding: 20px 0; }
+  padding: 20px 0;
+  background-color: #fff; }
   section.guarantee .cards {
     padding: 10px 0;
     width: auto;
@@ -316,7 +316,7 @@ section.guarantee {
         section.guarantee .cards .card .pic svg {
           height: 90px;
           width: auto;
-          fill: #83e0bc; }
+          fill: #facf9e; }
       section.guarantee .cards .card .info {
         display: block;
         flex-wrap: wrap;
@@ -360,24 +360,25 @@ section.guarantee {
     display: flex;
     flex-wrap: wrap; }
   .categories .succulent {
-    background-color: #965320; }
+    background-color: #9efaad; }
   .categories .airplant {
-    background-color: #83e0bc; }
+    background-color: #faa19e; }
   .categories .diy {
-    background-color: #d8ba88; }
+    background-color: #a69efa; }
   .categories .pots {
-    background-color: #b98a58; }
+    background-color: #facf9e; }
   .categories .card {
     width: 50%;
-    max-height: 400px; }
+    max-height: 400px;
+    color: #965320; }
     .categories .card .one {
-      background-image: url(../img/succulent-brown.png); }
+      background-image: url(../img/succulents.png); }
     .categories .card .two {
-      background-image: url(../img/air-plant-green.png); }
+      background-image: url(../img/air-plant.png); }
     .categories .card .three {
-      background-image: url(../img/diy-lightbrown.png); }
+      background-image: url(../img/diy.png); }
     .categories .card .four {
-      background-image: url(../img/rosegold-pots.png); }
+      background-image: url(../img/rosegold-pots-transparent.png); }
     .categories .card .bg-img {
       width: 100%;
       height: 100%;
@@ -407,17 +408,15 @@ section.guarantee {
             font-weight: bolder;
             padding: 10px 10px;
             margin: 10px 0;
-            border-radius: 5px; }
-          .categories .card .bg-img .cardinfo .infosect .btn-pots {
-            border: 3px solid #83e0bc; }
-          .categories .card .bg-img .cardinfo .infosect .btn-diy {
-            border: 3px solid #965320; }
-          .categories .card .bg-img .cardinfo .infosect .btn-airplant {
-            border: 3px solid #965320; }
+            border-radius: 5px;
+            color: #965320; }
+          .categories .card .bg-img .cardinfo .infosect .btn-airplant,
+          .categories .card .bg-img .cardinfo .infosect .btn-diy,
+          .categories .card .bg-img .cardinfo .infosect .btn-pots,
           .categories .card .bg-img .cardinfo .infosect .btn-succulent {
-            border: 3px solid #fbf1c0; }
-          .categories .card .bg-img .cardinfo .infosect a span:hover {
-            color: #e1ae00; }
+            border: 3px solid #965320; }
+          .categories .card .bg-img .cardinfo .infosect a:hover {
+            background-color: rgba(255, 255, 255, 0.5); }
 
 @media only screen and (max-width: 1150px) {
   .categories .cards .bg-img .cardinfo .infosect .title {
@@ -452,9 +451,10 @@ section.guarantee {
       font-size: 16px; } }
 
 footer {
-  background-color: #83e0bc;
   width: 100%;
-  height: auto; }
+  height: auto;
+  background-color: #fff;
+  border-top: 1px solid #faa19e; }
   footer .wrapper {
     max-width: 1200px; }
   footer nav {
@@ -476,23 +476,25 @@ footer {
           footer nav ul li a .para {
             font-size: 18px; }
         footer nav ul li span:hover {
-          color: #e1ae00; }
+          color: #a69efa;
+          text-decoration: underline; }
   footer .copyright {
     width: 100%;
     background-color: #83e0bc;
     padding: 5px;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    background-color: #faa19e; }
     footer .copyright p {
       padding: 5px 10px;
       font-size: 16px; }
       footer .copyright p .brand-name {
         font-weight: 700;
         font-family: "Comfortaa", cursive;
-        background: #965320;
-        background: -webkit-repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
-        background: -moz-repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
-        background: repeating-linear-gradient(to right, #965320 0%, #b98a58 20%, #d8ba88 50%, #fbf1c0 100%);
+        background: #a69efa;
+        background: -webkit-repeating-linear-gradient(to right, #a69efa 0%, #faa19e 20%, #facf9e 50%, #9efaad 100%);
+        background: -moz-repeating-linear-gradient(to right, #a69efa 0%, #faa19e 20%, #facf9e 50%, #9efaad 100%);
+        background: repeating-linear-gradient(to right, #a69efa 0%, #faa19e 20%, #facf9e 50%, #9efaad 100%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -513,8 +515,8 @@ footer {
 section.guarantee {
   width: 100%;
   height: auto;
-  background-color: #fbf1c0;
-  padding: 20px 0; }
+  padding: 20px 0;
+  background-color: #fff; }
   section.guarantee .cards {
     padding: 10px 0;
     width: auto;
@@ -535,7 +537,7 @@ section.guarantee {
         section.guarantee .cards .card .pic svg {
           height: 90px;
           width: auto;
-          fill: #83e0bc; }
+          fill: #facf9e; }
       section.guarantee .cards .card .info {
         display: block;
         flex-wrap: wrap;
@@ -571,12 +573,12 @@ section.guarantee {
       font-size: 16px; } }
 
 .procduct-body {
-  background-color: #b98a58; }
+  background-color: #fff; }
 
 header.products .header-banner {
-  background-color: #83e0bc;
   height: auto;
-  padding: 0; }
+  padding: 0;
+  background-color: #fff; }
   header.products .header-banner .background {
     height: 300px;
     width: 100%;
@@ -587,20 +589,21 @@ header.products .header-banner {
 
 .main-nav .header-info .nav-desktop nav ul li a span:hover,
 .main-nav .header-info .nav-desktop nav ul li a span.active {
-  color: #e1ae00; }
+  color: #a69efa;
+  text-decoration: underline; }
 
 .main-nav .header-info .nav-desktop nav ul li .search {
-  display: flex; }
+  display: flex;
+  align-items: center; }
 
 .card-container {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  background-color: #b98a58;
   max-width: 1200px;
   justify-content: center;
-  margin: 0% auto; }
+  margin: 0% auto;
+  background-color: #fff; }
   .card-container a.card {
     background-color: #f8f5f5;
     border-radius: 20px;
@@ -637,19 +640,24 @@ header.products .header-banner {
         border-radius: 5px;
         color: #965320;
         background: moccasin;
-        border: 1px solid #965320; }
+        border: 1px solid #965320;
+        color: #965320; }
         .card-container a.card .info .categories .badge.category-airplant {
-          background-color: #83e0bc;
-          color: #965320; }
+          background-color: #a69efa;
+          color: #fff;
+          border: 1px solid #fff; }
         .card-container a.card .info .categories .badge.category-succulent {
-          background-color: #fbf1c0;
-          color: #965320; }
+          background-color: #facf9e;
+          border: 1px solid #965320; }
         .card-container a.card .info .categories .badge.category-houseplant {
           background-color: #d8ba88;
-          color: #965320; }
-        .card-container a.card .info .categories .badge.category-officeplant {
+          background-color: #9efaad;
+          border: 1px solid #fff; }
+        .card-container a.card .info .categories .badge.category-pots, .card-container a.card .info .categories .badge.category-terrarium {
           background-color: #b98a58;
-          color: #fbf1c0; }
+          background-color: #faa19e;
+          color: #fff;
+          border: 1px solid #fff; }
 
 @media only screen and (max-width: 840px) {
   header.products .header-banner .banner-text .brand-name {
@@ -738,10 +746,11 @@ header.products .header-banner {
           font-size: 24px;
           border-radius: 0 3px 3px 0;
           user-select: none;
-          -webkit-user-select: none; }
+          -webkit-user-select: none;
+          color: #9efaad; }
         .details-section .page-content .images .row .arrow .prev:hover,
         .details-section .page-content .images .row .arrow .next:hover {
-          color: #b98a58; }
+          color: #a69efa; }
         .details-section .page-content .images .row .column {
           width: 16.66%;
           display: flex;
@@ -804,14 +813,14 @@ header.products .header-banner {
             clip: rect(1px 1px 1px 1px);
             clip: rect(1px, 1px, 1px, 1px); }
           .details-section .page-content .product-info .size-container .sizes label {
-            background-color: #d8ba88;
             padding: 15px 30px;
             margin-right: 10px;
             border-radius: 20px;
             outline: none;
-            border: 1px solid #965320; }
+            border: 1px solid #965320;
+            background-color: #facf9e; }
           .details-section .page-content .product-info .size-container .sizes input:checked + label {
-            background-color: #e1ae00; }
+            background-color: #9efaad; }
       .details-section .page-content .product-info .quantity {
         height: 70px;
         display: flex;
@@ -859,17 +868,20 @@ header.products .header-banner {
           padding: 5px 30px;
           border-radius: 20px;
           border: 1px solid #965320;
-          background-color: #83e0bc; }
+          background-color: #faa19e;
+          color: #fbf1c0; }
           .details-section .page-content .product-info .add-to-cart a svg {
             width: 30px;
             height: auto;
-            fill: #fbf1c0;
             transition: 0.2s ease-in-out;
-            margin: 5px 10px; }
+            margin: 5px 10px;
+            fill: #9efaad; }
         .details-section .page-content .product-info .add-to-cart a:hover {
-          background-color: #b98a58; }
+          background-color: #9efaad; }
+          .details-section .page-content .product-info .add-to-cart a:hover svg {
+            fill: #faa19e; }
           .details-section .page-content .product-info .add-to-cart a:hover span {
-            color: #fbf1c0; }
+            color: #965320; }
 
 section.details-care {
   background-color: #f8f5f5;
@@ -909,11 +921,11 @@ section.details-care {
         border-radius: 5px;
         display: flex; }
         section.details-care .care-sect ul.care-description li:nth-child(3n + 1) svg {
-          fill: #83e0bc; }
+          fill: #9efaad; }
         section.details-care .care-sect ul.care-description li:nth-child(3n + 2) svg {
-          fill: #b98a58; }
+          fill: #a69efa; }
         section.details-care .care-sect ul.care-description li:nth-child(3n) svg {
-          fill: #965320; }
+          fill: #faa19e; }
         section.details-care .care-sect ul.care-description li .svg svg {
           margin-right: 5px;
           width: 20px; }
@@ -1040,7 +1052,7 @@ section.details-care {
   padding: 40px 5% 0 5%; }
   .checkout-card .card {
     max-width: 1300px;
-    border-top: 2px solid #83e0bc;
+    border-top: 2px solid #faa19e;
     height: auto;
     padding: 20px 0;
     line-height: 1.2; }
@@ -1048,7 +1060,7 @@ section.details-care {
       padding: 15px 0;
       display: flex;
       flex-wrap: nowrap;
-      border-bottom: 1px solid #83e0bc; }
+      border-bottom: 1px solid #faa19e; }
       .checkout-card .card .content .image {
         height: 100px;
         width: 100px; }
@@ -1103,7 +1115,7 @@ section.details-care {
             padding-right: 10px; }
     .checkout-card .card .continue {
       height: auto;
-      border-top: 2px solid #83e0bc;
+      border-top: 2px solid #faa19e;
       padding-top: 20px;
       min-height: 300px;
       display: flex;
@@ -1139,7 +1151,9 @@ section.details-care {
               border-radius: 20px;
               width: auto;
               height: auto;
-              display: flex; }
+              display: flex;
+              background-color: #facf9e;
+              border: 1px solid #965320; }
               .checkout-card .card .continue .checkout-btn ul li a svg {
                 width: 30px; }
               .checkout-card .card .continue .checkout-btn ul li a p {
@@ -1256,8 +1270,7 @@ html {
 
 body {
   height: 100%;
-  width: 100%;
-  background-color: #83e0bc; }
+  width: 100%; }
 
 .wrapper {
   display: flex;
