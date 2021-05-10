@@ -1,4 +1,13 @@
-//STICKY NAV//
+(function ($) {
+  $(document).ready(function () {
+    $("#nav").load("./navigation.html");
+    console.log("nav");
+    $("#footer").load("./footer.html");
+    console.log("footer");
+  });
+})(jQuery); //STICKY NAV//
+
+
 window.onscroll = function () {
   myFunction();
 };
@@ -15,10 +24,12 @@ function myFunction() {
 } //MOBILE MENU//
 
 
-var menu = document.querySelector("#menu");
-var menuBtn = document.querySelector("#menu-btn");
-var isOpen = document.querySelector("#nav-mobile");
-menuBtn.addEventListener("click", function () {
-  menu.classList.toggle("open");
-  isOpen.style.transition = "2s, ease in out";
-});
+setTimeout(function () {
+  var menu = document.querySelector("#menu");
+  var menuBtn = document.querySelector("#menu-btn");
+  var isOpen = document.querySelector("#nav-mobile");
+  menuBtn.addEventListener("click", function () {
+    menu.classList.toggle("open");
+    isOpen.style.transition = "2s, ease in out";
+  });
+}, 300);
