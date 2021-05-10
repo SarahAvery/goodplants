@@ -4,7 +4,8 @@ footer {
   width: 100%;
   height: auto;
   background-color: #fff;
-  border-top: 1px solid #faa19e;
+  border-top: 1px solid #8dd977;
+  color: #000;
 
   .wrapper {
     max-width: 1200px;
@@ -19,37 +20,38 @@ footer {
 
       margin: 10px;
       text-align: center;
+    }
 
-      li {
-        padding: 10px;
-        width: 100%;
-        a {
-          padding: 5px;
+    li {
+      padding: 10px;
+      width: 100%;
+    }
+    a {
+      padding: 5px;
 
-          .title {
-            font-size: 20px;
-            font-weight: bolder;
-          }
-
-          .para {
-            font-size: 18px;
-          }
-        }
-        span:hover {
-          color: #a69efa;
-          text-decoration: underline;
-        }
+      .title {
+        font-size: 18px;
+        font-weight: bolder;
       }
+
+      .para {
+        font-size: 16px;
+      }
+      span {
+        color: #000;
+      }
+    }
+    span:hover {
+      border-bottom: 3px solid #89f8d3;
     }
   }
 
   .copyright {
     width: 100%;
-    @include green;
     padding: 5px;
     display: flex;
     align-items: center;
-    background-color: #faa19e;
+    background-color: #fff;
 
     p {
       padding: 5px 10px;

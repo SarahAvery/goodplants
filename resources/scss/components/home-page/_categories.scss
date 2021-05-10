@@ -9,26 +9,78 @@
     flex-wrap: wrap;
   }
 
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+
   .succulent {
-    background-color: #9efaad;
+    background-color: #c9f889;
+    color: rgb(85, 85, 85);
+
+    .btn-succulent {
+      border: 3px solid #555;
+    }
+    a {
+      color: rgb(85, 85, 85);
+    }
+    a:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
   }
 
   .airplant {
-    background-color: #faa19e;
+    background-color: #77d99d;
+    color: #eee;
+
+    .btn-airplant {
+      border: 3px solid #eee;
+    }
+    a {
+      color: #eee;
+    }
+    a:hover {
+      background-color: rgba(85, 85, 85, 0.2);
+    }
   }
 
   .diy {
-    background-color: #a69efa;
+    background-color: #90f099;
+    color: #555;
+
+    .btn-diy {
+      border: 3px solid rgb(85, 85, 85);
+    }
+    a {
+      color: #555;
+    }
+    a:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
   }
 
   .pots {
-    background-color: #facf9e;
+    background-color: #8dd977;
+    color: #eee;
+
+    .btn-pots {
+      border: 3px solid #eee;
+    }
+    a {
+      color: #eee;
+    }
+    a:hover {
+      background-color: rgba(85, 85, 85, 0.2);
+    }
   }
 
   .card {
     width: 50%;
     max-height: 400px;
-    color: #965320;
 
     .one {
       background-image: url(../img/succulents.png);
@@ -74,27 +126,6 @@
             font-size: 20px;
             padding-bottom: 10px;
             line-height: 1.4;
-          }
-
-          a {
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: bolder;
-            padding: 10px 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-            color: #965320;
-          }
-
-          .btn-airplant,
-          .btn-diy,
-          .btn-pots,
-          .btn-succulent {
-            border: 3px solid #965320;
-          }
-
-          a:hover {
-            background-color: rgba(255, 255, 255, 0.5);
           }
         }
       }

@@ -1,0 +1,192 @@
+//MIXINS
+
+.product-body {
+  background-color: #fff;
+}
+
+header.products {
+  .header-banner {
+    height: auto;
+    padding: 0;
+    background-color: #fff;
+
+    .background {
+      height: 300px;
+      width: 100%;
+      display: flex;
+
+      img {
+        overflow: hidden;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+//NAV BAR//
+.product-page {
+  .main-nav {
+    .header-info {
+      .nav-desktop {
+        nav {
+          ul {
+            .search-li {
+              display: contents;
+            }
+            .search {
+              display: flex;
+              align-items: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //Product Body
+
+  .card-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0% auto;
+    background-color: #fff;
+
+    a.card {
+      @include offwhite;
+      border-radius: 20px;
+      width: 220px;
+      height: auto;
+      padding: 5px;
+      margin: 10px 10px;
+      border: 1px solid black;
+      color: black;
+
+      .img-container {
+        height: 220px;
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: fill;
+          border-radius: 20px;
+        }
+      }
+
+      .info {
+        margin: 5px 0;
+        padding: 8px 8px;
+
+        p {
+          font-size: 16px;
+          padding-bottom: 8px;
+        }
+        .title {
+          font-weight: bolder;
+          font-size: 18px;
+          padding-bottom: 4px;
+        }
+
+        .sci {
+          font-size: 14px;
+        }
+
+        .price {
+          padding: 10px 0;
+        }
+
+        .categories {
+          .badge {
+            display: inline-flex;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #000;
+
+            &.category-airplant {
+              background-color: #77d99d;
+              color: #fff;
+            }
+
+            &.category-succulent {
+              background-color: #89f8d3;
+              color: #000;
+            }
+
+            &.category-houseplant {
+              color: #000;
+              background-color: #90f099;
+            }
+
+            &.category-pots,
+            &.category-terrarium {
+              background-color: #8dd977;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// MEDIA QUERIES
+
+@media only screen and (max-width: 700px) {
+  header.products {
+    .header-banner {
+      .background {
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  header.products {
+    .header-banner {
+      .banner-text {
+        .brand-name {
+          font-size: 80px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .product-page {
+    .main-nav {
+      .header-info {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .product-page {
+    .main-nav {
+      .header-info {
+        flex-wrap: wrap;
+        justify-content: center;
+        .nav-desktop {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  header.products {
+    .header-banner {
+      .banner-text {
+        .brand-name {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}

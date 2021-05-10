@@ -1,6 +1,6 @@
 @import "mixins";
 
-//NAV BAR//
+// NAV BAR//
 .main-nav {
   .header-info {
     .nav-desktop {
@@ -75,12 +75,12 @@
             border-radius: 0 3px 3px 0;
             user-select: none;
             -webkit-user-select: none;
-            color: #9efaad;
+            color: #8dd977;
           }
 
           .prev:hover,
           .next:hover {
-            color: #a69efa;
+            color: #89f8d3;
           }
         }
 
@@ -123,7 +123,6 @@
       align-items: center;
 
       .title {
-        //background-color: lightslategray;
         width: 100%;
 
         .name {
@@ -142,14 +141,12 @@
       .price {
         font-size: 18px;
         width: 100%;
-        //background-color: limegreen;
         padding: 5px 0;
       }
 
       //SIZES
 
       .size-container {
-        //background-color: lightgoldenrodyellow;
         width: 100%;
         font-size: 18px;
         height: 100px;
@@ -158,7 +155,6 @@
         align-items: center;
 
         .size-title {
-          //background-color: lightgray;
           padding: 5px 0;
           width: 100%;
         }
@@ -177,12 +173,12 @@
             margin-right: 10px;
             border-radius: 20px;
             outline: none;
-            border: 1px solid #965320;
-            background-color: #facf9e;
+            border: 1px solid #111;
+            background-color: #c9f889;
           }
 
           input:checked + label {
-            background-color: #9efaad;
+            background-color: #8dd977;
           }
         }
       }
@@ -196,7 +192,6 @@
         font-size: 18px;
         width: 100%;
         margin: 5px 0;
-        //background-color: palegoldenrod;
 
         span {
           cursor: pointer;
@@ -208,7 +203,6 @@
 
         .number {
           margin: 5px 0;
-          //background-color: orange;
 
           .minus,
           .plus {
@@ -220,14 +214,18 @@
             display: inline-block;
             vertical-align: middle;
             text-align: center;
-            border: 1px solid #965320;
+            border: 1px solid #111;
             outline: none;
+
+            &:active {
+              background-color: #89f8d3;
+            }
           }
           input {
             height: 35px;
             width: 70px;
             text-align: center;
-            border: 1px solid #965320;
+            border: 1px solid #111;
             border-radius: 4px;
             display: inline-block;
             vertical-align: middle;
@@ -249,25 +247,25 @@
           align-items: center;
           padding: 5px 30px;
           border-radius: 20px;
-          border: 1px solid #965320;
-          background-color: #faa19e;
-          color: #fbf1c0;
+          border: 1px solid #111;
+          background-color: #c9f889;
+          color: #111;
 
           svg {
             width: 30px;
             height: auto;
             transition: 0.2s ease-in-out;
             margin: 5px 10px;
-            fill: #9efaad;
+            fill: #77d99d;
           }
         }
         a:hover {
-          background-color: #9efaad;
+          background-color: #77d99d;
           svg {
-            fill: #faa19e;
+            fill: #c9f889;
           }
           span {
-            color: #965320;
+            color: #eee;
           }
         }
       }
@@ -291,13 +289,12 @@ section.details-care {
   .desc-info,
   .care-sect {
     width: 100%;
-    border-top: 2px solid #83e0bc;
+    border-top: 2px solid #90f099;
     padding: 20px 0;
 
     h2 {
       font-size: 24px;
       padding: 5px 0;
-      color: #965320;
       font-weight: bolder;
     }
     h3 {
@@ -325,20 +322,20 @@ section.details-care {
         // every first svg fill in loop
         &:nth-child(3n + 1) {
           svg {
-            fill: #9efaad;
+            fill: #77d99d;
           }
         }
         //every second svg fill in loop
         &:nth-child(3n + 2) {
           svg {
-            fill: #a69efa;
+            fill: #90f099;
           }
         }
 
         //every third svg fill in loop
         &:nth-child(3n) {
           svg {
-            fill: #faa19e;
+            fill: #8dd977;
           }
         }
 
@@ -368,7 +365,6 @@ section.details-care {
           display: none;
           width: 295px;
           height: 295px;
-          // max-height: 70%;
           margin: 0 auto;
 
           img {
@@ -388,8 +384,6 @@ section.details-care {
 @media only screen and (max-width: 840px) {
   .details-section {
     .page-content {
-      //IMAGE SECTION
-
       .images {
         margin: 0 auto;
         width: 40%;
@@ -421,17 +415,11 @@ section.details-care {
             margin-top: -15px;
 
             label {
-              @include lightbrown;
               padding: 10px 25px;
               margin-right: 10px;
               border-radius: 20px;
               font-size: 16px;
               outline: none;
-              border: 1px solid #965320;
-            }
-
-            input:checked + label {
-              @include yellow;
             }
           }
         }
@@ -491,7 +479,7 @@ section.details-care {
       .product-info {
         width: 100%;
         padding: 0;
-        border-top: 2px solid #83e0bc;
+        border-top: 2px solid #90f099;
         padding-top: 20px;
         margin-top: 20px;
       }
@@ -534,16 +522,13 @@ section.details-care {
       }
     }
   }
-}
+  section.details-care {
+    .care-sect {
+      ul.care-description {
+        display: block;
 
-@media only screen and (max-width: 400px) {
-  .details-nav {
-    .main-nav {
-      .header-info {
-        flex-wrap: wrap;
-        justify-content: center;
-        .nav-desktop {
-          display: block;
+        li {
+          width: auto;
         }
       }
     }
@@ -559,7 +544,6 @@ section.details-care {
 
       .images {
         .lg-img {
-          // width: 100%;
           width: 300px;
           height: 300px;
         }

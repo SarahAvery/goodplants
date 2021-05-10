@@ -1,0 +1,82 @@
+@import "../../mixins";
+
+header {
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 5px 20px;
+    height: 30px;
+    background-color: #8dd977;
+
+    svg {
+      height: 20px;
+      width: 20px;
+      margin: 0 10px;
+      fill: #fff;
+    }
+    svg:hover {
+      fill: #c9f889;
+    }
+  }
+
+  .header-banner {
+    height: auto;
+    padding: 120px 0;
+    background-color: #fff;
+  }
+
+  .banner-text {
+    .brand-name {
+      font-size: 100px;
+      @include brand-name;
+      padding: 10px 0;
+    }
+    svg {
+      width: 60px;
+    }
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  //
+}
+
+@media only screen and (max-width: 670px) {
+  header {
+    .banner-text {
+      .brand-name {
+        font-size: 80px;
+      }
+      svg {
+        width: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  header {
+    .banner-text {
+      .brand-name {
+        font-size: 60px;
+      }
+      svg {
+        width: 40px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  header {
+    .banner-text {
+      .brand-name {
+        font-size: 50px;
+      }
+      svg {
+        width: 30px;
+      }
+    }
+  }
+}

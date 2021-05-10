@@ -1,71 +1,8 @@
+// COMPONENTS
+@import "components/components";
+
 //MIXINS
 @import "mixins";
-
-//HEADER
-@import "header";
-
-//BANNER
-@import "banner";
-
-//GUARANTEE
-@import "guarantee";
-
-//CATEGORY
-@import "categories";
-
-//FOOTER
-@import "footer";
-
-//PRODUCTS
-@import "products";
-
-//DESCRIPTION
-@import "details";
-
-//CHECKOUT
-@import "checkout";
-
-//SPAN FONT COLOURS
-
-.green {
-  color: #83e0bc;
-}
-
-.darkbrown {
-  color: #965320;
-}
-
-.medbrown {
-  color: #b98a58;
-}
-
-.lightbrown {
-  color: #d8ba88;
-}
-
-.beige {
-  color: #fbf1c0;
-}
-
-.fill-green {
-  fill: #83e0bc;
-}
-
-.fill-darkbrown {
-  fill: #965320;
-}
-
-.fill-medbrown {
-  fill: #b98a58;
-}
-
-.fill-lightbrown {
-  fill: #d8ba88;
-}
-
-.fill-beige {
-  fill: #fbf1c0;
-}
 
 html {
   scroll-behavior: smooth;
